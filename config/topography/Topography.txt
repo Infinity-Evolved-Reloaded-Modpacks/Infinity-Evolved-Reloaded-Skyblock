@@ -1,0 +1,11 @@
+//If this file is deleted, a new set of default configs will be generated.
+
+//Sets if the mod should print documentation.
+printDocumentation(false)
+
+//Sets the Topography WorldType as default
+setAsDefaultWorldType()
+
+structureExample = registerPreset("Basic Tree", "images/Basic_Tree", "One Tree over one Dirt floating in the void.")
+structureExample.registerDimension(0, "examples/Basic_Tree.txt")
+
