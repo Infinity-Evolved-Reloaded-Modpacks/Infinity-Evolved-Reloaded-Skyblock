@@ -29,7 +29,7 @@ FusionCrafting.remove(<draconicevolution:wyvern_bow>);
 FusionCrafting.remove(<draconicevolution:wyvern_pick>);
 FusionCrafting.remove(<draconicevolution:wyvern_shovel>);
 FusionCrafting.remove(<draconicevolution:wyvern_axe>);
-	
+
 # -Wyvern Tools
 recipes.remove(<draconicevolution:wyvern_bow>);
 recipes.remove(<draconicevolution:wyvern_shovel>);
@@ -38,10 +38,10 @@ recipes.remove(<draconicevolution:wyvern_pick>);
 recipes.remove(<draconicevolution:wyvern_axe>);
 
 # -Draconic Armor
-FusionCrafting.remove(draconicevolution:wyvern_helm);
-FusionCrafting.remove(draconicevolution:wyvern_chest);
-FusionCrafting.remove(draconicevolution:wyvern_legs);
-FusionCrafting.remove(draconicevolution:wyvern_boots);
+FusionCrafting.remove(<draconicevolution:wyvern_helm>);
+FusionCrafting.remove(<draconicevolution:wyvern_chest>);
+FusionCrafting.remove(<draconicevolution:wyvern_legs>);
+FusionCrafting.remove(<draconicevolution:wyvern_boots>);
 
 # -Wyvern armor
 recipes.remove(<draconicevolution:wyvern_helm>);
@@ -66,7 +66,7 @@ recipes.addShaped(<draconicevolution:draconium_chest>, [[<draconicevolution:infu
 recipes.addShaped(<draconicevolution:generator>, [[<minecraft:netherbrick>, <ore:ingotIron>, <minecraft:netherbrick>], [<ore:ingotIron>, <minecraft:furnace>, <ore:ingotIron>], [<minecraft:netherbrick>, <draconicevolution:wyvern_core>, <minecraft:netherbrick>]]);
 recipes.addShaped(<draconicevolution:dislocator_advanced>.withTag({}), [[<draconicevolution:draconium_block:1>, <draconicevolution:dislocator>, <draconicevolution:draconium_block:1>], [<draconicevolution:dislocator>, <extrautils2:simpledecorative>, <draconicevolution:dislocator>], [<draconicevolution:draconium_block:1>, <draconicevolution:awakened_core>, <draconicevolution:draconium_block:1>]]);
 recipes.addShaped(<draconicevolution:dislocator>, [[<ore:blockBlaze>, <thermalfoundation:storage_alloy:7>, <ore:blockBlaze>], [<thermalfoundation:storage_alloy:7>, <draconicevolution:wyvern_core>, <thermalfoundation:storage_alloy:7>], [<ore:blockBlaze>, <thermalfoundation:storage_alloy:7>, <ore:blockBlaze>]]);
-FusionCrafting.add(<draconicevolution:awakened_core>, <draconicevolution:draconic_block>, FusionCrafting.WYVERN, 1250000, [<draconicevolution:wyvern_core>, <draconicevolution:wyvern_core>, <ore:ingotIridium>, <ore:ingot_dark_soularium>, <ore:ingotTerrasteel>, <ore:ingotVoid>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_core>]]);
+FusionCrafting.add(<draconicevolution:awakened_core>, <draconicevolution:draconic_block>, FusionCrafting.WYVERN, 1250000, [<draconicevolution:wyvern_core>, <draconicevolution:wyvern_core>, <ore:ingotIridium>, <ore:ingot_dark_soularium>, <ore:ingotTerrasteel>, <ore:ingotVoid>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_core>]);
 
 # -Wyvern Tools
 recipes.addShaped(<draconicevolution:wyvern_bow>, [[<draconicevolution:wyvern_core>, <ore:oreEmerald>, <draconicevolution:wyvern_core>], [<thermalfoundation:material:1028>, <thermalfoundation:tool.bow_platinum>, <thermalfoundation:material:1028>], [<draconicevolution:draconium_block>, <draconicevolution:wyvern_energy_core>, <draconicevolution:draconium_block>]]);
@@ -76,12 +76,12 @@ recipes.addShaped(<draconicevolution:wyvern_pick>, [[<draconicevolution:wyvern_c
 recipes.addShaped(<draconicevolution:wyvern_axe>, [[<draconicevolution:wyvern_core>, <ore:oreEmerald>, <draconicevolution:wyvern_core>], [<thermalfoundation:material:1028>, <unstabletools:unstable_axe>, <thermalfoundation:material:1028>], [<draconicevolution:draconium_block>, <draconicevolution:wyvern_energy_core>, <draconicevolution:draconium_block>]]);
 
 # -Draconic Tools
-FusionCrafting.add(<draconicevolution:draconic_sword>, <draconicevolution:wyvern_sword>, FusionCrafting.WYVERN, 12500, [<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <Draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:dustMana>, <ore:dustMana>, <draconicevolution:draconic_energy_core>, <densemetals:dense_emerald_ore>]]);
-FusionCrafting.add(<draconicevolution:draconic_shovel>, <draconicevolution:wyvern_shovel>, FusionCrafting.WYVERN, 12500, [<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <Draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:dustMana>, <ore:dustMana>, <draconicevolution:draconic_energy_core>, <densemetals:dense_emerald_ore>]]);
-FusionCrafting.add(<draconicevolution:draconic_bow>, <draconicevolution:wyvern_bow>, FusionCrafting.WYVERN, 12500, [<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <Draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:dustMana>, <ore:dustMana>, <draconicevolution:draconic_energy_core>, <densemetals:dense_emerald_ore>]]);
-FusionCrafting.add(<draconicevolution:draconic_pick>, <draconicevolution:wyvern_pick>, FusionCrafting.WYVERN, 12500, [<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <Draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:dustMana>, <ore:dustMana>, <draconicevolution:draconic_energy_core>, <densemetals:dense_emerald_ore>]]);
-FusionCrafting.add(<draconicevolution:draconic_axe>, <draconicevolution:wyvern_axe>, FusionCrafting.WYVERN, 12500, [<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <Draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:dustMana>, <ore:dustMana>, <draconicevolution:draconic_energy_core>, <densemetals:dense_emerald_ore>]]);
-FusionCrafting.add(<draconicevolution:draconic_hoe>, <minecraft:diamond_hoe>, FusionCrafting.WYVERN, 12500, [<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <Draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:dustMana>, <ore:dustMana>, <draconicevolution:draconic_energy_core>, <densemetals:dense_emerald_ore>]]);
+FusionCrafting.add(<draconicevolution:draconic_sword>, <draconicevolution:wyvern_sword>, FusionCrafting.WYVERN, 12500, [<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:dustMana>, <ore:dustMana>, <draconicevolution:draconic_energy_core>, <densemetals:dense_emerald_ore>]);
+FusionCrafting.add(<draconicevolution:draconic_shovel>, <draconicevolution:wyvern_shovel>, FusionCrafting.WYVERN, 12500, [<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:dustMana>, <ore:dustMana>, <draconicevolution:draconic_energy_core>, <densemetals:dense_emerald_ore>]);
+FusionCrafting.add(<draconicevolution:draconic_bow>, <draconicevolution:wyvern_bow>, FusionCrafting.WYVERN, 12500, [<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:dustMana>, <ore:dustMana>, <draconicevolution:draconic_energy_core>, <densemetals:dense_emerald_ore>]);
+FusionCrafting.add(<draconicevolution:draconic_pick>, <draconicevolution:wyvern_pick>, FusionCrafting.WYVERN, 12500, [<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:dustMana>, <ore:dustMana>, <draconicevolution:draconic_energy_core>, <densemetals:dense_emerald_ore>]);
+FusionCrafting.add(<draconicevolution:draconic_axe>, <draconicevolution:wyvern_axe>, FusionCrafting.WYVERN, 12500, [<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:dustMana>, <ore:dustMana>, <draconicevolution:draconic_energy_core>, <densemetals:dense_emerald_ore>]);
+FusionCrafting.add(<draconicevolution:draconic_hoe>, <minecraft:diamond_hoe>, FusionCrafting.WYVERN, 12500, [<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:dustMana>, <ore:dustMana>, <draconicevolution:draconic_energy_core>, <densemetals:dense_emerald_ore>]);
 
 # -Wyvern Armor
 recipes.addShaped(<draconicevolution:wyvern_helm>, [[<draconicevolution:wyvern_core>, <ore:oreDiamond>, <draconicevolution:wyvern_core>], [<thermalfoundation:material:1028>, <ic2:quantum_helmet:26>, <thermalfoundation:material:1028>], [<draconicevolution:draconium_block>, <draconicevolution:wyvern_energy_core>, <draconicevolution:draconium_block>]]);
@@ -90,10 +90,10 @@ recipes.addShaped(<draconicevolution:wyvern_legs>, [[<draconicevolution:wyvern_c
 recipes.addShaped(<draconicevolution:wyvern_boots>, [[<draconicevolution:wyvern_core>, <ore:oreDiamond>, <draconicevolution:wyvern_core>], [<thermalfoundation:material:1028>, <ic2:quantum_boots:26>, <thermalfoundation:material:1028>], [<draconicevolution:draconium_block>, <draconicevolution:wyvern_energy_core>, <draconicevolution:draconium_block>]]);
 
 # -Draconic Armor
-FusionCrafting.add(<draconicevolution:draconic_helm>, <draconicevolution:wyvern_helm>, FusionCrafting.WYVERN, 12500, [<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <Draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:dustMana>, <ore:dustMana>, <draconicevolution:draconic_energy_core>, <densemetals:dense_diamond_ore>]]);
-FusionCrafting.add(<draconicevolution:draconic_boots>, <draconicevolution:wyvern_boots>, FusionCrafting.WYVERN, 12500, [<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <Draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:dustMana>, <ore:dustMana>, <draconicevolution:draconic_energy_core>, <densemetals:dense_diamond_ore>]]);
-FusionCrafting.add(<draconicevolution:draconic_chest>, <draconicevolution:wyvern_chest>, FusionCrafting.WYVERN, 12500, [<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <Draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:dustMana>, <ore:dustMana>, <draconicevolution:draconic_energy_core>, <densemetals:dense_diamond_ore>]]);
-FusionCrafting.add(<draconicevolution:draconic_legs>, <draconicevolution:wyvern_legs>, FusionCrafting.WYVERN, 12500, [<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <Draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:dustMana>, <ore:dustMana>, <draconicevolution:draconic_energy_core>, <densemetals:dense_diamond_ore>]]);
+FusionCrafting.add(<draconicevolution:draconic_helm>, <draconicevolution:wyvern_helm>, FusionCrafting.WYVERN, 12500, [<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:dustMana>, <ore:dustMana>, <draconicevolution:draconic_energy_core>, <densemetals:dense_diamond_ore>]);
+FusionCrafting.add(<draconicevolution:draconic_boots>, <draconicevolution:wyvern_boots>, FusionCrafting.WYVERN, 12500, [<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:dustMana>, <ore:dustMana>, <draconicevolution:draconic_energy_core>, <densemetals:dense_diamond_ore>]);
+FusionCrafting.add(<draconicevolution:draconic_chest>, <draconicevolution:wyvern_chest>, FusionCrafting.WYVERN, 12500, [<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:dustMana>, <ore:dustMana>, <draconicevolution:draconic_energy_core>, <densemetals:dense_diamond_ore>]);
+FusionCrafting.add(<draconicevolution:draconic_legs>, <draconicevolution:wyvern_legs>, FusionCrafting.WYVERN, 12500, [<draconicevolution:draconic_block>, <draconicevolution:draconic_block>, <draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <ore:dustMana>, <ore:dustMana>, <draconicevolution:draconic_energy_core>, <densemetals:dense_diamond_ore>]);
 
 #Add Smeltery Recipes
 mods.tconstruct.Casting.addTableRecipe(<draconicevolution:wyvern_energy_core>, <draconicevolution:wyvern_core>, <liquid:redstone>, 6480, true);
