@@ -1,6 +1,6 @@
 #Name: Railcraft.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded Skyblock
+#Modpack: Infinity Evolved Reloaded
 #packmode expert
 
 print("Initializing 'Railcraft.zs'...");
@@ -26,5 +26,18 @@ recipes.addShaped(<thermalfoundation:storage_resource:1>, [[<ore:fuelCoke>,<ore:
 recipes.addShapeless(<thermalfoundation:material:802> *9, [<railcraft:generic:6>]);
 recipes.addShapeless(<thermalfoundation:material:802> *9, [<thermalfoundation:storage_resource:1>]);
 recipes.addShapeless(<thermalfoundation:material:160> *9, [<thermalfoundation:storage_alloy>]);
+
+#Steel Armor
+recipes.remove(<railcraft:armor_helmet_steel>);
+recipes.addShaped(<railcraft:armor_helmet_steel>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <minecraft:iron_helmet>, <ore:plateSteel>], [null, null, null]]);
+
+recipes.remove(<railcraft:armor_chestplate_steel>);
+recipes.addShaped(<railcraft:armor_chestplate_steel>, [[<ore:plateSteel>, <minecraft:iron_chestplate>, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+
+recipes.remove(<railcraft:armor_leggings_steel>);
+recipes.addShaped(<railcraft:armor_leggings_steel>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <minecraft:iron_leggings>, <ore:plateSteel>], [<ore:plateSteel>, null, <ore:plateSteel>]]);
+
+recipes.remove(<railcraft:armor_boots_steel>);
+recipes.addShaped(<railcraft:armor_boots_steel>, [[<ore:plateSteel>, null, <ore:plateSteel>], [<ore:plateSteel>, <minecraft:iron_boots>, <ore:plateSteel>], [null, null, null]]);
 
 print("Initialized 'Railcraft.zs'");

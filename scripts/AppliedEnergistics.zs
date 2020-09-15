@@ -1,6 +1,6 @@
 #Name: AppliedEnergistics.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded Skyblock
+#Modpack: Infinity Evolved Reloaded
 #packmode expert
 
 print("Initializing 'AppliedEnergistics.zs'...");
@@ -30,5 +30,9 @@ recipes.remove(<appliedenergistics2:vibration_chamber>);
 #Inscriber
 recipes.remove(<appliedenergistics2:inscriber>);
 recipes.addShaped(<appliedenergistics2:inscriber>, [[<ore:ingotIron>, <minecraft:sticky_piston>, <ore:ingotIron>], [<appliedenergistics2:material:11>, <thermalfoundation:upgrade:3>, <ic2:upgrade>], [<ore:ingotIron>, <minecraft:sticky_piston>, <ore:ingotIron>]]);
+
+#Grindstone Recipes
+mods.appliedenergistics2.Grinder.addRecipe(<enderio:item_material:46>, <minecraft:cactus>, 4);
+mods.appliedenergistics2.Grinder.addRecipe(<enderio:item_material:46>, <minecraft:waterlily>, 4);
 
 print("Initialized 'AppliedEnergistics.zs'");

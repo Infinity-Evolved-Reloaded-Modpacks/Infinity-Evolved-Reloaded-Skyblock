@@ -1,6 +1,6 @@
 #Name: IndustrialCraft2.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded Skyblock
+#Modpack: Infinity Evolved Reloaded
 #packmode expert
 
 print("Initializing 'IndustrialCraft2.zs'...");
