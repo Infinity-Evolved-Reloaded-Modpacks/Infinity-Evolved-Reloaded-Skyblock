@@ -1,9 +1,17 @@
 #Name: AppliedEnergistics.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded Skyblock
+#Modpack: Infinity Evolved Reloaded
 #packmode expert
 
+import moretweaker.railcraft.RollingMachine;
+
 print("Initializing 'AppliedEnergistics.zs'...");
+
+#Inscriber Presses
+RollingMachine.addShapeless(<appliedenergistics2:material:19>, [<ore:itemSilicon>, <minecraft:iron_block>]);
+RollingMachine.addShapeless(<appliedenergistics2:material:15>, [<minecraft:gold_ingot>, <minecraft:iron_block>]);
+RollingMachine.addShapeless(<appliedenergistics2:material:14>, [<minecraft:diamond>, <minecraft:iron_block>]);
+RollingMachine.addShapeless(<appliedenergistics2:material:13>, [<appliedenergistics2:material:10>, <minecraft:iron_block>]);
 
 #Wrench
 recipes.remove(<appliedenergistics2:nether_quartz_wrench>);
@@ -30,5 +38,9 @@ recipes.remove(<appliedenergistics2:vibration_chamber>);
 #Inscriber
 recipes.remove(<appliedenergistics2:inscriber>);
 recipes.addShaped(<appliedenergistics2:inscriber>, [[<ore:ingotIron>, <minecraft:sticky_piston>, <ore:ingotIron>], [<appliedenergistics2:material:11>, <thermalfoundation:upgrade:3>, <ic2:upgrade>], [<ore:ingotIron>, <minecraft:sticky_piston>, <ore:ingotIron>]]);
+
+#Grindstone Recipes
+mods.appliedenergistics2.Grinder.addRecipe(<enderio:item_material:46>, <minecraft:cactus>, 4);
+mods.appliedenergistics2.Grinder.addRecipe(<enderio:item_material:46>, <minecraft:waterlily>, 4);
 
 print("Initialized 'AppliedEnergistics.zs'");

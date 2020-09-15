@@ -1,6 +1,6 @@
 #Name: ExtraUtilites2.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded Skyblock
+#Modpack: Infinity Evolved Reloaded
 #packmode expert
 
 print("Initializing 'ExtraUtilites2.zs'...");
@@ -11,7 +11,6 @@ recipes.addShaped(<extrautils2:wateringcan>, [[<ore:ingotSteel>, <minecraft:dye:
 
 #Deep Dark Portal
 recipes.remove(<extrautils2:teleporter:1>);
-recipes.addShaped(<extrautils2:teleporter:1>, [[<extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:1>],[<extrautils2:compressedcobblestone:2>, <botanicadds:rune_tp>, <extrautils2:compressedcobblestone:2>], [<extrautils2:compressedcobblestone:1>, <extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:1>]]);
 
 #Generators
 recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"}));
