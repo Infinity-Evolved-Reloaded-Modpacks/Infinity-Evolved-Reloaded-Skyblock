@@ -11,7 +11,6 @@ recipes.addShaped(<extrautils2:wateringcan>, [[<ore:ingotSteel>, <minecraft:dye:
 
 #Deep Dark Portal
 recipes.remove(<extrautils2:teleporter:1>);
-recipes.addShaped(<extrautils2:teleporter:1>, [[<extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:2>], [<extrautils2:compressedcobblestone:2>, null, <extrautils2:compressedcobblestone:2>], [<extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:2>, <extrautils2:compressedcobblestone:2>]]);
 
 #Generators
 recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"}));
