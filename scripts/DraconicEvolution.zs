@@ -29,8 +29,7 @@ FusionCrafting.remove(<draconicevolution:wyvern_bow>);
 FusionCrafting.remove(<draconicevolution:wyvern_pick>);
 FusionCrafting.remove(<draconicevolution:wyvern_shovel>);
 FusionCrafting.remove(<draconicevolution:wyvern_axe>);
-FusionCrafting.remove(<draconicevolution:wyvern_hoe>);
-
+	
 # -Wyvern Tools
 recipes.remove(<draconicevolution:wyvern_bow>);
 recipes.remove(<draconicevolution:wyvern_shovel>);
