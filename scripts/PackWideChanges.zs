@@ -12,6 +12,17 @@ mods.jei.JEI.removeAndHide(<advanced_solar_panels:double_stone_slab>);
 # -ExtraUtilities2 Unstable Ingot
 mods.jei.JEI.hide(<extrautils2:unstableingots>);
 
+# -Unused Netherending Ores
+mods.jei.JEI.hide(<netherendingores:ore_end_modded_1:*>);
+mods.jei.JEI.hide(<netherendingores:ore_nether_modded_1:12>);
+mods.jei.JEI.hide(<netherendingores:ore_nether_modded_1:11>);
+mods.jei.JEI.hide(<netherendingores:ore_nether_modded_1:14>);
+mods.jei.JEI.hide(<netherendingores:ore_nether_modded_1:15>);
+mods.jei.JEI.hide(<netherendingores:ore_nether_modded_2>);
+mods.jei.JEI.hide(<netherendingores:ore_nether_modded_1:2>);
+mods.jei.JEI.hide(<netherendingores:ore_other_1:*>);
+mods.jei.JEI.hide(<netherendingores:ore_end_modded_2>);
+mods.jei.JEI.hide(<netherendingores:ore_end_vanilla:*>);
 
 #Add Creative Items
 # -Creative Energy Cell
