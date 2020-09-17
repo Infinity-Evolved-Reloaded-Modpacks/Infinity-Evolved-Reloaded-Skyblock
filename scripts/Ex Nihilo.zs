@@ -14,4 +14,16 @@ mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <projectred-
 
 mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <projectred-core:resource_item:202>, 0.6);
 
+mods.exnihilocreatio.Hammer.addRecipe(<appliedenergistics2:sky_stone_block>, <thaumcraft:crystal_ordo>, 0, 1, 1);
+
+mods.exnihilocreatio.Hammer.addRecipe(<minecraft:grass>, <thaumcraft:crystal_terra>, 0, 1, 1);
+
+mods.exnihilocreatio.Hammer.addRecipe(<minecraft:ice>, <thaumcraft:crystal_aqua>, 0, 1, 1);
+
+mods.exnihilocreatio.Hammer.addRecipe(<minecraft:tnt>, <thaumcraft:crystal_perditio>, 0, 1, 1);
+
+mods.exnihilocreatio.Hammer.addRecipe(<minecraft:netherrack>, <thaumcraft:crystal_ignis>, 0, 1, 1);
+
+mods.exnihilocreatio.Hammer.addRecipe(<minecraft:nether_wart_block>, <thaumcraft:crystal_vitium>, 0, 1, 1);
+
 print("initalized 'Ex Nihilo.zs'");
