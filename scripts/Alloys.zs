@@ -1,6 +1,6 @@
 #Name: Alloys.zs
 #Author: Irgendwer
-#Modpack: Infinity Evolved Reloaded Skyblock
+#Modpack: Infinity Evolved Reloaded
 #packmode expert
 
 print("initalizing 'Alloys.zs'");
@@ -10,4 +10,3 @@ recipes.removeShaped(<ore:ingotBronze>, [[<ore:ingotTin>, <ore:ingotCopper>, <or
 recipes.removeShapeless(<ore:ingotBrass>, [<ore:ingotZinc>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]);
 
 print("initalized 'Alloys.zs'");
-
