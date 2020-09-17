@@ -26,4 +26,6 @@ mods.exnihilocreatio.Hammer.addRecipe(<minecraft:netherrack>, <thaumcraft:crysta
 
 mods.exnihilocreatio.Hammer.addRecipe(<minecraft:nether_wart_block>, <thaumcraft:crystal_vitium>, 0, 1, 1);
 
+mods.exnihilocreatio.Hammer.addRecipe(<botania:biomestonea:9>, <thaumcraft:crystal_aer>, 0, 1, 1);
+
 print("initalized 'Ex Nihilo.zs'");
