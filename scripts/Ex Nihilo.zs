@@ -22,7 +22,7 @@ mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocre
 
 mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_zinc>, 0.15);
 
-mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_tin>, 0.7);
+mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_tin>, 0.07);
 
 mods.exnihilocreatio.Hammer.addRecipe(<appliedenergistics2:sky_stone_block>, <thaumcraft:crystal_ordo>, 0, 1, 1);
 
