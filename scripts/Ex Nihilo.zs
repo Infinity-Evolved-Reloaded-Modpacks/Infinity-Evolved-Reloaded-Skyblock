@@ -8,21 +8,47 @@ recipes.remove(<exnihilocreatio:block_auto_sifter>);
 
 mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:sand>, <projectred-core:resource_item:105>, 0.1);
 
-mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <projectred-core:resource_item:200>, 0.08);
+mods.exnihilocreatio.Sieve.addIronMeshRecipe(<minecraft:gravel>, <projectred-core:resource_item:200>, 0.1);
+
+mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <projectred-core:resource_item:200>, 0.15);
+
+mods.exnihilocreatio.Sieve.addIronMeshRecipe(<minecraft:gravel>, <projectred-core:resource_item:201>, 0.085);
 
 mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <projectred-core:resource_item:201>, 0.12);
 
-mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <projectred-core:resource_item:202>, 0.06);
+mods.exnihilocreatio.Sieve.addIronMeshRecipe(<minecraft:gravel>, <projectred-core:resource_item:202>, 0.06);
+
+mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <projectred-core:resource_item:202>, 0.1);
+
+mods.exnihilocreatio.Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_aluminium>, 0.135);
+
+mods.exnihilocreatio.Sieve.addIronMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_aluminium>, 0.18);
 
 mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_aluminium>, 0.25);
 
+mods.exnihilocreatio.Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_silver>, 0.135);
+
+mods.exnihilocreatio.Sieve.addIronMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_silver>, 0.18);
+
 mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_silver>, 0.25);
+
+mods.exnihilocreatio.Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_lead>, 0.085);
+
+mods.exnihilocreatio.Sieve.addIronMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_lead>, 0.1);
 
 mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_lead>, 0.15);
 
+mods.exnihilocreatio.Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_zinc>, 0.085);
+
+mods.exnihilocreatio.Sieve.addIronMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_zinc>, 0.1);
+
 mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_zinc>, 0.15);
 
-mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_tin>, 0.07);
+mods.exnihilocreatio.Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_tin>, 0.035);
+
+mods.exnihilocreatio.Sieve.addIronMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_tin>, 0.05);
+
+mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_tin>, 0.075);
 
 mods.exnihilocreatio.Hammer.addRecipe(<appliedenergistics2:sky_stone_block>, <thaumcraft:crystal_ordo>, 0, 1, 1);
 
