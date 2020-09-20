@@ -6,6 +6,14 @@ print("initalizing ’Ex Nihilo.zs'");
 
 recipes.remove(<exnihilocreatio:block_auto_sifter>);
 
+mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <minecraft:dye:4>, 0.2);
+
+mods.exnihilocreatio.Sieve.addIronMeshRecipe(<minecraft:gravel>, <minecraft:dye:4>, 0.135);
+
+mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <minecraft:coal>, 0.2);
+
+mods.exnihilocreatio.Sieve.addIronMeshRecipe(<minecraft:gravel>, <minecraft:coal>, 0.15);
+
 mods.exnihilocreatio.Sieve.addIronMeshRecipe(<exnihilocreatio:block_dust>, <exnihilocreatio:item_ore_yellorium>, 0.085);
 
 mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_dust>, <exnihilocreatio:item_ore_yellorium>, 0.145);
