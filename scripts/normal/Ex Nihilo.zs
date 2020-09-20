@@ -49,7 +49,7 @@ mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<ore:sand>, <exnihilocreatio:ite
 
 mods.exnihilocreatio.Sieve.addIronMeshRecipe(<ore:sand>, <appliedenergistics2:material:1>, 0.015);
 
-mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<ore:sand>, <appliedenergistics2:material>, 0.05);
+mods.exnihilocreatio.Sieve.addDiamondMeshRecipe(<ore:sand>, <appliedenergistics2:material:1>, 0.25);
 
 mods.exnihilocreatio.Sieve.addFlintMeshRecipe(<ore:sand>, <appliedenergistics2:material>, 0.13);
 
