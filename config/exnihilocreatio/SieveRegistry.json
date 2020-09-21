@@ -1498,7 +1498,7 @@
     },
     {
       "drop": "appliedenergistics2:material:1",
-      "chance": 0.625,
+      "chance": 0.0625,
       "meshLevel": 4
     },
     {
