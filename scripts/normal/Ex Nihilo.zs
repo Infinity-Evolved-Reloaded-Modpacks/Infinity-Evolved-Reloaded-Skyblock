@@ -12,10 +12,13 @@ mods.exnihilocreatio.Hammer.addRecipe(<minecraft:ice>, <thaumcraft:crystal_aqua>
 
 mods.exnihilocreatio.Hammer.addRecipe(<minecraft:tnt>, <thaumcraft:crystal_perditio>, 0, 1, 1);
 
-mods.exnihilocreatio.Hammer.addRecipe(<minecraft:netherrack>, <thaumcraft:crystal_ignis>, 0, 1, 1);
+mods.exnihilocreatio.Hammer.addRecipe(<minecraft:nether_brick>, <thaumcraft:crystal_ignis>*4, 0, 1, 1);
 
 mods.exnihilocreatio.Hammer.addRecipe(<minecraft:nether_wart_block>, <thaumcraft:crystal_vitium>, 0, 1, 1);
 
-mods.exnihilocreatio.Hammer.addRecipe(<botania:biomestonea:9>, <thaumcraft:crystal_aer>, 0, 1, 1);
+mods.exnihilocreatio.Hammer.addRecipe(<minecraft:sandstone>, <thaumcraft:crystal_aer>, 0, 1, 1);
+
+mods.exnihilocreatio.Hammer.addRecipe(<minecraft:stone>, <thaumcraft:crystal_ordo>, 0, 1, 1);
+
 
 print("initalized 'Ex Nihilo.zs'");
