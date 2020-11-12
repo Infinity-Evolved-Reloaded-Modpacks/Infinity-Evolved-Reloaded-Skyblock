@@ -9,8 +9,10 @@
 		"§rThere are 3 recipes to make the Blast Bricks: Glue, which requires you to stick a Horse into a Smeltery; Ender Pearls; and TNT. Make a 3x3x3 and click the center with an Engineer's Hammer."
 	],
 	dependencies: [
+		"a5332dd3",
 		"c5f5f0a7"
 	],
+	dependency_requirement: "one_completed",
 	tasks: [{
 		uid: "047981f0",
 		type: "item",
