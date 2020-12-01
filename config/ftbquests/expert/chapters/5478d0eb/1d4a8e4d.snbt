@@ -1,0 +1,19 @@
+{
+	title: "Its getting hot in here",
+	x: 5.5d,
+	y: -4.0d,
+	text: [
+		"§lThe Crucible will generate Lava by putting Cobblestone in it and when it has a Heat source under it.",
+		"§rLook in JEI for valid Heat Sources."
+	],
+	dependencies: [
+		"75fad71c"
+	],
+	tasks: [{
+		uid: "e4e2d6c0",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_crucible 1 1"
+		}]
+	}]
+}

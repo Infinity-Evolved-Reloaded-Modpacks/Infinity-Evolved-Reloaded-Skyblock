@@ -10,7 +10,7 @@ recipes.addShaped(<ic2:resource:12>, [[<ore:plateIron>, <ore:plateIron>, <ore:pl
 
 #Jetpack
 recipes.remove(<ic2:jetpack_electric>);
-recipes.addShaped(<ic2:jetpack_electric>, [[<ore:plateDenseBronze>, <ic2:crafting:2>, <ic2:plate:9>], [<ore:plateDenseBronze>, <ic2:te:72>.withTag({}), <ore:plateDenseBronze>], [<ore:dustGlowstone>, null, <ore:dustGlowstone>]]);
+recipes.addShaped(<ic2:jetpack_electric>, [[<ore:plateDenseBronze>, <ic2:crafting:2>, <ic2:plate:9>], [<ore:plateDenseBronze>, <ic2:te:72>, <ore:plateDenseBronze>], [<ore:dustGlowstone>, null, <ore:dustGlowstone>]]);
 
 #Macerator
 recipes.remove(<ic2:te:47>);
@@ -19,6 +19,10 @@ recipes.addShaped(<ic2:te:47>, [[<railcraft:generic:7>, <railcraft:generic:7>, <
 #Re-Battery
 recipes.remove(<ic2:re_battery:26>);
 recipes.addShaped(<ic2:re_battery:26>, [[null, <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}), null], [<ic2:casing:6>, <ore:dustElectrotine>, <ic2:casing:6>], [<ic2:casing:6>, <ore:dustElectrotine>, <ic2:casing:6>]]);
+
+#Forge Hammer
+recipes.remove(<ic2:forge_hammer>);
+recipes.addShaped(<ic2:forge_hammer>, [[<ore:ingotIron>, <minecraft:iron_ingot>, null], [<ore:ingotIron>, <immersiveengineering:material>, <immersiveengineering:material>], [<minecraft:iron_ingot>, <ore:ingotIron>, null]]);
 
 #Nerf Hammer Recipes
 recipes.remove(<ic2:casing:6>);

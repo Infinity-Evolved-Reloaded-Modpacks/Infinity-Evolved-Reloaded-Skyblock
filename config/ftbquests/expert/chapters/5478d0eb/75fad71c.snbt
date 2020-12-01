@@ -1,0 +1,19 @@
+{
+	title: "All The Clay",
+	x: 3.5d,
+	y: -3.0d,
+	text: [
+		"§l Use Bottles to fill Water from your Cobblestone generator into the Barrel, the water source will not get consumed.",
+		"§rDoes All the Clay really contain All Clay? Of course not."
+	],
+	dependencies: [
+		"71fb7e14"
+	],
+	tasks: [{
+		uid: "320f9e40",
+		type: "item",
+		items: [{
+			item: "minecraft:clay"
+		}]
+	}]
+}

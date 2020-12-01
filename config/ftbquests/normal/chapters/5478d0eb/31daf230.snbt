@@ -1,0 +1,24 @@
+{
+	title: "Slow and Steady",
+	icon: "immersiveengineering:stone_decoration 1 1",
+	x: 13.5d,
+	y: -0.5d,
+	text: [
+		"§lA rather slow, but easy to set up method to get Steel is the Immersive Engineering Blast Furnace. A single Steel Ingot takes 60 seconds to bake. You need to use Coal Coke as fuel, you can't use anything else.",
+		"",
+		"§rThere are 3 recipes to make the Blast Bricks: Glue, which requires you to stick a Horse into a Smeltery; Ender Pearls; and TNT. Make a 3x3x3 and click the center with an Engineer's Hammer."
+	],
+	dependencies: [
+		"a5332dd3",
+		"c5f5f0a7"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "047981f0",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 27 1"
+		}],
+		count: 27L
+	}]
+}

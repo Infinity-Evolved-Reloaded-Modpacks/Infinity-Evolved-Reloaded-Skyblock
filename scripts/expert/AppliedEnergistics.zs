@@ -3,10 +3,17 @@
 #Modpack: Infinity Evolved Reloaded
 #packmode expert
 
+import moretweaker.railcraft.RollingMachine;
+
 print("Initializing 'AppliedEnergistics.zs'...");
 
+#Inscriber Presses
+RollingMachine.addShapeless(<appliedenergistics2:material:19>, [<ore:itemSilicon>, <minecraft:iron_block>]);
+RollingMachine.addShapeless(<appliedenergistics2:material:15>, [<minecraft:gold_ingot>, <minecraft:iron_block>]);
+RollingMachine.addShapeless(<appliedenergistics2:material:14>, [<minecraft:diamond>, <minecraft:iron_block>]);
+RollingMachine.addShapeless(<appliedenergistics2:material:13>, [<appliedenergistics2:material:10>, <minecraft:iron_block>]);
+
 #Wrench
-recipes.remove(<appliedenergistics2:nether_quartz_wrench>);
 recipes.remove(<appliedenergistics2:certus_quartz_wrench>);
 recipes.addShaped(<appliedenergistics2:certus_quartz_wrench>, [[<stevescarts:modulecomponents:49>, null, <stevescarts:modulecomponents:49>], [null, <advanced_solar_panels:crafting:5>, null], [null, <advanced_solar_panels:crafting:5>, null]]);
 
@@ -34,5 +41,13 @@ recipes.addShaped(<appliedenergistics2:inscriber>, [[<ore:ingotIron>, <minecraft
 #Grindstone Recipes
 mods.appliedenergistics2.Grinder.addRecipe(<enderio:item_material:46>, <minecraft:cactus>, 4);
 mods.appliedenergistics2.Grinder.addRecipe(<enderio:item_material:46>, <minecraft:waterlily>, 4);
+
+ #Infinity Booster Card 
+recipes.remove(<ae2wtlib:infinity_booster_card>);
+recipes.addShaped(<ae2wtlib:infinity_booster_card>, [
+    [<appliedenergistics2:material:42>, <appliedenergistics2:material:41>, <appliedenergistics2:material:42>], 
+    [<bigreactors:mineralbenitoite>, <extrautils2:opinium:7>, <bigreactors:mineralanglesite>], 
+    [<appliedenergistics2:material:42>, <appliedenergistics2:material:41>, <appliedenergistics2:material:42>]
+    ]);
 
 print("Initialized 'AppliedEnergistics.zs'");
