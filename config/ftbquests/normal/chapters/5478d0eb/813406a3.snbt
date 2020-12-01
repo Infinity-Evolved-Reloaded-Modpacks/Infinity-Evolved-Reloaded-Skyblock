@@ -1,0 +1,36 @@
+{
+	title: "Crooking all the leaves",
+	icon: "exnihilocreatio:crook_wood",
+	x: 4.5d,
+	y: -0.5d,
+	text: [
+		"§l Silkworms will be your first source of String.",
+		"§r Break Leaves with a crook to get Silkworms, then rightclick any Leaves with the Silkworms to generate infested leaves after that break them with a crook to get string."
+	],
+	dependencies: [
+		"e967ac45"
+	],
+	tasks: [{
+		uid: "e3dcd0c2",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:crook_wood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "23af97f7",
+		type: "item",
+		items: [{
+			item: "minecraft:string"
+		}]
+	},
+	{
+		uid: "ce9d48a7",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_material 1 2"
+		}]
+	}]
+}

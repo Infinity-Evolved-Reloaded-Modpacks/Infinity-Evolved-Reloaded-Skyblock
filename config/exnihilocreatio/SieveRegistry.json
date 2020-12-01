@@ -481,7 +481,7 @@
     },
     {
       "drop": "exnihilocreatio:item_ore_silver",
-      "chance": 0.75,
+      "chance": 0.075,
       "meshLevel": 3
     },
     {
@@ -618,6 +618,11 @@
       "drop": "exnihilocreatio:item_ore_copper:0",
       "chance": 0.075,
       "meshLevel": 3
+    },
+    {
+      "drop": "exnihilocreatio:item_ore_copper:0",
+      "chance": 0.12,
+      "meshLevel": 4
     },
     {
       "drop": "exnihilocreatio:item_ore_nickel:0",
@@ -1186,7 +1191,7 @@
     },
     {
       "drop": "appliedenergistics2:material:2",
-      "chance": 0.85,
+      "chance": 0.085,
       "meshLevel": 3
     },
     {
@@ -1201,7 +1206,7 @@
     },
     {
       "drop": "appliedenergistics2:material:3",
-      "chance": 0.85,
+      "chance": 0.085,
       "meshLevel": 3
     },
     {
@@ -1263,6 +1268,11 @@
       "drop": "exnihilocreatio:item_ore_copper:0",
       "chance": 0.075,
       "meshLevel": 3
+    },
+    {
+      "drop": "exnihilocreatio:item_ore_copper:0",
+      "chance": 0.12,
+      "meshLevel": 4
     },
     {
       "drop": "exnihilocreatio:item_ore_nickel:0",
@@ -1371,7 +1381,7 @@
     },
     {
       "drop": "exnihilocreatio:item_ore_silver",
-      "chance": 0.75,
+      "chance": 0.075,
       "meshLevel": 3
     },
     {
@@ -1473,7 +1483,7 @@
     },
     {
       "drop": "projectred-core:resource_item:105",
-      "chance": 0.0135,
+      "chance": 0.135,
       "meshLevel": 4
     },
     {
@@ -1488,7 +1498,7 @@
     },
     {
       "drop": "appliedenergistics2:material:1",
-      "chance": 0.625,
+      "chance": 0.0625,
       "meshLevel": 4
     },
     {
@@ -1560,6 +1570,11 @@
       "drop": "exnihilocreatio:item_ore_copper:0",
       "chance": 0.075,
       "meshLevel": 3
+    },
+    {
+      "drop": "exnihilocreatio:item_ore_copper:0",
+      "chance": 0.12,
+      "meshLevel": 4
     },
     {
       "drop": "exnihilocreatio:item_ore_nickel:0",
@@ -1668,7 +1683,7 @@
     },
     {
       "drop": "exnihilocreatio:item_ore_silver",
-      "chance": 0.75,
+      "chance": 0.075,
       "meshLevel": 3
     },
     {

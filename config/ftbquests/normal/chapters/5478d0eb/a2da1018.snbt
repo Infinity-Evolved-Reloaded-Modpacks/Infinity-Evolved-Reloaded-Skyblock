@@ -1,0 +1,27 @@
+{
+	title: "Sifting Away",
+	icon: "exnihilocreatio:block_sieve",
+	x: 6.0d,
+	y: -1.5d,
+	text: [
+		"§lThe Sieve will be your main source of Resources, higher tier meshes will give you a higher chances for Resources and will give you other that you cant get with lower ones."
+	],
+	dependencies: [
+		"813406a3"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "7cf3940c",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_sieve"
+		}]
+	},
+	{
+		uid: "b876bbda",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 1 1"
+		}]
+	}]
+}

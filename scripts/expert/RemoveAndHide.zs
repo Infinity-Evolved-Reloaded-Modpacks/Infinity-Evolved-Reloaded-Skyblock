@@ -14,6 +14,22 @@ var recipesToRemove = [
 <immersiveengineering:shovel_steel>,
 <immersiveengineering:axe_steel>,
 <immersiveengineering:pickaxe_steel>,
+<ic2:bronze_boots>,
+<ic2:bronze_chestplate>,
+<ic2:bronze_helmet>,
+<ic2:bronze_leggings>,
+<advanced_solar_panels:double_stone_slab>,
+<extrautils2:unstableingots>,
+<appliedenergistics2:nether_quartz_wrench>,
+<extracells:vibrantchamberfluid>,
+<computercraft:turtle>,
+<appliedenergistics2:vibration_chamber>,
+<randomthings:blockbreaker>,
+<randomthings:spectrecoil_normal>,
+<randomthings:spectrecoil_redstone>,
+<randomthings:spectrecoil_ender>,
+<randomthings:spectrecoil_number>,
+<randomthings:spectrecoil_genesis>
 	] as IItemStack[];
 
 	for items in recipesToRemove {

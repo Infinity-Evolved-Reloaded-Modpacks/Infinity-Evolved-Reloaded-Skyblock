@@ -1,0 +1,28 @@
+{
+	title: "Dirty Dancing",
+	icon: "exnihilocreatio:block_barrel0",
+	x: 2.5d,
+	y: -1.0d,
+	text: [
+		"§lThe Barrel will be one of the most needed blocks early for you.",
+		"",
+		"§rLook in JEI to see which items in a barrel generate Dirt."
+	],
+	dependencies: [
+		"e967ac45"
+	],
+	tasks: [{
+		uid: "94cb5cb6",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_barrel0"
+		}]
+	},
+	{
+		uid: "6e456c41",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}]
+	}]
+}
