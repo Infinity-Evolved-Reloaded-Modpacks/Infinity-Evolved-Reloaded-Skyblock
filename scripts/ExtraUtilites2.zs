@@ -97,8 +97,8 @@ recipes.remove(<extrautils2:ingredients:6>);
 recipes.addShaped(<extrautils2:ingredients:7>, [[<ore:xuUpgradeBlank>, <extrautils2:ingredients:9>, <extrautils2:ingredients:9>], [<ore:blockRedstone>, <minecraft:emerald>, <ore:blockRedstone>], [<ore:xuUpgradeBlank>, <ore:xuUpgradeBlank>, <ore:xuUpgradeBlank>]]);
 recipes.addShaped(<extrautils2:ingredients:6>, [[<ore:xuUpgradeBlank>, <extrautils2:ingredients:9>, <extrautils2:ingredients:9>], [<ore:blockRedstone>, <minecraft:diamond>, <ore:blockRedstone>], [<ore:xuUpgradeBlank>, <ore:xuUpgradeBlank>, <ore:xuUpgradeBlank>]]);
 recipes.addShaped(<extrautils2:ingredients:8>, [[<minecraft:dye:4>, <minecraft:iron_ingot>, <minecraft:dye:4>], [<minecraft:iron_ingot>, <minecraft:diamond_pickaxe>, <minecraft:iron_ingot>], [<minecraft:dye:4>, <minecraft:iron_ingot>, <minecraft:dye:4>]]);
-#
-Player Trap
+
+#Player Trap
 recipes.remove(<darkutils:trap_tile:7>);
 recipes.addShaped(<darkutils:trap_tile:7>, [[null, null, null], [<ore:stone>, <enderio:item_dark_steel_sword>, <ore:stone>], [null, null, null]]);
 
