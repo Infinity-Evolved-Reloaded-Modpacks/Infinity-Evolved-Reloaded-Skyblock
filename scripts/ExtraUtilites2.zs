@@ -97,6 +97,17 @@ recipes.remove(<extrautils2:ingredients:6>);
 recipes.addShaped(<extrautils2:ingredients:7>, [[<ore:xuUpgradeBlank>, <extrautils2:ingredients:9>, <extrautils2:ingredients:9>], [<ore:blockRedstone>, <minecraft:emerald>, <ore:blockRedstone>], [<ore:xuUpgradeBlank>, <ore:xuUpgradeBlank>, <ore:xuUpgradeBlank>]]);
 recipes.addShaped(<extrautils2:ingredients:6>, [[<ore:xuUpgradeBlank>, <extrautils2:ingredients:9>, <extrautils2:ingredients:9>], [<ore:blockRedstone>, <minecraft:diamond>, <ore:blockRedstone>], [<ore:xuUpgradeBlank>, <ore:xuUpgradeBlank>, <ore:xuUpgradeBlank>]]);
 recipes.addShaped(<extrautils2:ingredients:8>, [[<minecraft:dye:4>, <minecraft:iron_ingot>, <minecraft:dye:4>], [<minecraft:iron_ingot>, <minecraft:diamond_pickaxe>, <minecraft:iron_ingot>], [<minecraft:dye:4>, <minecraft:iron_ingot>, <minecraft:dye:4>]]);
+#
+Player Trap
+recipes.remove(<darkutils:trap_tile:7>);
+recipes.addShaped(<darkutils:trap_tile:7>, [[null, null, null], [<ore:stone>, <enderio:item_dark_steel_sword>, <ore:stone>], [null, null, null]]);
 
+#Damage Trap
+recipes.remove(<darkutils:trap_tile:2>);
+recipes.addShaped(<darkutils:trap_tile:2>, [[null, null, null], [<ore:stone>, <railcraft:tool_sword_steel>, <ore:stone>], [null, null, null]]);
+
+#Poison Trap
+recipes.remove(<darkutils:trap_tile:0>);
+recipes.addShaped(<darkutils:trap_tile:0>, [[null, null, null], [<ore:stone>, <minecraft:fermented_spider_eye>, <ore:stone>], [null, null, null]]);
 
 print("Initialized 'ExtraUtilites2.zs'");

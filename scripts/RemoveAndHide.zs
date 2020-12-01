@@ -1,7 +1,7 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 
-#Name: Gears.zs
+#Name: RemoveAndHide.zs
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded
 #packmode expert
@@ -14,6 +14,10 @@ var recipesToRemove = [
 <immersiveengineering:shovel_steel>,
 <immersiveengineering:axe_steel>,
 <immersiveengineering:pickaxe_steel>,
+<railcraft:gear:1>,
+<railcraft:gear:2>,
+<railcraft:gear:4>,
+<railcraft:gear:5>,
 <ic2:bronze_boots>,
 <ic2:bronze_chestplate>,
 <ic2:bronze_helmet>,
