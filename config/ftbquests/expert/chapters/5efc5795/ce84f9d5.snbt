@@ -1,8 +1,8 @@
 {
 	title: "Arm's Length, Please",
 	icon: "industrialforegoing:mob_relocator",
-	x: 9.0d,
-	y: 10.0d,
+	x: 12.0d,
+	y: 9.0d,
 	text: [
 		"The Mob Crusher instantly kills regular mobs like Creepers, Skeletons, Zombies, and Wither Skeletons. It uses RF to run, and each mob kill produces some Mob Essence.",
 		"",

@@ -1,7 +1,7 @@
 {
 	title: "Safari Zone",
 	icon: "industrialforegoing:mob_duplicator",
-	x: 10.5d,
+	x: 12.5d,
 	y: 10.0d,
 	text: [
 		"§lThe Mob Duplicator uses RF and Mob Essence to spawn the mob inside of the Mob Imprisonment Tool.",

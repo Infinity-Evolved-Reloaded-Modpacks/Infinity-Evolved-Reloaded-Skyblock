@@ -1,7 +1,7 @@
 {
 	title: "Capacitative Spawning",
 	icon: "enderio:block_powered_spawner",
-	x: 7.5d,
+	x: 11.5d,
 	y: 10.0d,
 	text: [
 		"§lThe Powered Spawner is, well, an RF-powered spawner. To set the mob, you have to combine it with a Broken Spawner (which is gotten by mining a Spawner) in an Anvil, which takes about 30 levels.",

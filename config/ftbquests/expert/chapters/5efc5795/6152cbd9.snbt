@@ -1,8 +1,8 @@
 {
 	title: "Convert them ALL",
 	icon: "energyconverters:energy_bridge",
-	x: 3.0d,
-	y: 2.5d,
+	x: 6.0d,
+	y: 10.0d,
 	text: [
 		"In 1.7.10 you could convert RF to EU per Immersive Engineering Wires, in newer Minecraft versions IE dropped this support. Thats why we added the Mod Energy Converters.",
 		"",

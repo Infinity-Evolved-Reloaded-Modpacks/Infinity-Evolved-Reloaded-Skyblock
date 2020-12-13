@@ -18,7 +18,7 @@
 		},
 		Damage: 3s
 	},
-	x: 4.5d,
+	x: 3.0d,
 	y: 2.5d,
 	text: [
 		"The Induction Smelter works similarly to alloying, you put two things together to make a new one. The Induction Smelter is the only way to get Slag, along with several other things."
