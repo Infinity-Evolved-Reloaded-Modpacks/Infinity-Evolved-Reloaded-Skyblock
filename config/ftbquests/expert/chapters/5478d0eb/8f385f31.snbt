@@ -1,8 +1,8 @@
 {
 	title: "Goes Great with Pancakes!",
 	icon: "ic2:crafting",
-	x: 1.0d,
-	y: 1.0d,
+	x: 1.4166666666666665d,
+	y: 0.9583333333333333d,
 	text: [
 		"",
 		"§lRubber, made from a sticky goo. Obtained kinda like Maple Syrup.",

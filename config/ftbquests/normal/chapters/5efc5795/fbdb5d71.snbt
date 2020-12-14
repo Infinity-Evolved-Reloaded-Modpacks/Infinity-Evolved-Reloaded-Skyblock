@@ -2,7 +2,7 @@
 	title: "Butcher Pete",
 	icon: "enderio:block_killer_joe",
 	x: 6.0d,
-	y: 10.0d,
+	y: 7.0d,
 	text: [
 		"§lThe Killer Joe is a special machine that uses any sword that you place inside of it to kill mobs in a 5x5x4 area in front of it. ",
 		"",
