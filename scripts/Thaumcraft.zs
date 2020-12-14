@@ -1,10 +1,11 @@
 #Name: Thaumcraft.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded
-#packmode expert
+#Modpack: Infinity Evolved Reloaded: Skyblock
+
 import mods.thaumcraft.ArcaneWorkbench;
 import mods.thaumcraft.Crucible;
 import mods.thaumcraft.Infusion;
+
 print("Initializing 'Thaumcraft.zs'...");
 
 #General

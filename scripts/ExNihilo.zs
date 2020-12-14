@@ -1,7 +1,6 @@
 #Name: ExNihilo.zs
 #Author: Irgendwer
 #Modpack: Infinity Evolved Reloaded: Skyblock
-#packmode expert
 
 print("Initializing 'ExNihilo.zs'...");
 

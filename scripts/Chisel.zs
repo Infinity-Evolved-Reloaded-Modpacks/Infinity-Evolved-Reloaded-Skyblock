@@ -1,7 +1,6 @@
 #Name: Chisel.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded
-#packmode normal
+#Modpack: Infinity Evolved Reloaded: Skyblock
 
 print("Initializing 'Chisel.zs'...");
 

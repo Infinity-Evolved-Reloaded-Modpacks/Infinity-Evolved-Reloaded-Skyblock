@@ -1,6 +1,6 @@
 #Name: ManaDust.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded
+#Modpack: Infinity Evolved Reloaded: Skyblock
 
 print("Initializing 'ManaDust.zs'...");
 

@@ -1,10 +1,9 @@
-import crafttweaker.item.IItemStack as IItemStack;
-import mods.jei.JEI.removeAndHide as rh;
-
 #Name: RemoveAndHide.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded
-#packmode expert
+#Modpack: Infinity Evolved Reloaded: Skyblock
+
+import crafttweaker.item.IItemStack as IItemStack;
+import mods.jei.JEI.removeAndHide as rh;
 
 print("Initializing 'RemoveAndHide.zs'...");
 

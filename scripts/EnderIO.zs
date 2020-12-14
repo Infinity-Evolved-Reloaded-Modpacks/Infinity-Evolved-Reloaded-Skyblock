@@ -1,7 +1,6 @@
 #Name: EnderIO.zs
 #Author: Sander
-#modpack: Infinity Evolved Reloaded
-#packmode expert
+#Modpack: Infinity Evolved Reloaded: Skyblock
 
 print("Initializing 'EnderIO.zs'...");
 

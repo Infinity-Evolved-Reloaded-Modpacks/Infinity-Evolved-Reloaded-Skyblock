@@ -1,7 +1,6 @@
 #Name: UnstableTools.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded
-#packmode expert
+#Modpack: Infinity Evolved Reloaded: Skyblock
 
 print("Initializing 'UnstableTools.zs'...");
 

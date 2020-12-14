@@ -1,9 +1,8 @@
-#Name avaritia.zs
+#Name: Avaritia.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded
-#packmode expert
+#Modpack: Infinity Evolved Reloaded: Skyblock
 
-print("Initializing 'avaritia.zs'...");
+print("Initializing 'Avaritia.zs'...");
 
 #Infinity Helmet
 mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_helmet>);
@@ -148,4 +147,4 @@ mods.avaritia.ExtremeCrafting.addShaped("HoeOfTheGreenEarth", <avaritia:infinity
     ]);
 
 
-print("Initialized 'avaritia.zs'");
+print("Initialized 'Avaritia.zs'");

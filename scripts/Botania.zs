@@ -1,9 +1,8 @@
 #Name: Botania.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded
-#packmode expert
+#Modpack: Infinity Evolved Reloaded: Skyblock
 
-print("Initializing 'botania.zs'...");
+print("Initializing 'Botania.zs'...");
 
 #Manasteel
 mods.botania.ManaInfusion.removeRecipe(<botania:manaresource>);
@@ -158,4 +157,4 @@ recipes.addShaped(<botania:spreader:3>, [[null, null, null], [<botania:manaresou
 #Mana Tesseract
 recipes.remove(<botanicadds:mana_tesseract>);
 
-print("Initialized 'botania.zs'");
+print("Initialized 'Botania.zs'");
