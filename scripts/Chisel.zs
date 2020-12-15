@@ -9,5 +9,3 @@ recipes.remove(<chisel:futura>);
 recipes.addShaped(<chisel:futura> * 8, [[<ore:stone>, <ore:stone>, <ore:stone>], [<ore:stone>, <minecraft:blaze_powder>, <ore:stone>], [<ore:stone>, <ore:stone>, <ore:stone>]]);
 
 print("Initialized 'Chisel.zs'");
-
-Test
