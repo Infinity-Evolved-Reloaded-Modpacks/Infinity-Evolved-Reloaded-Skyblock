@@ -1,7 +1,6 @@
 #Name: CreativeBreaks.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded
-#packmode expert
+#Modpack: Infinity Evolved Reloaded: Skyblock
 
 import crafttweaker.block.IBlock;
 import crafttweaker.player.IPlayer;

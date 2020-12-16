@@ -1,7 +1,6 @@
 #Name: Claybuckets.zs
 #Author: Irgendwer
-#Modpack: Infinity Evolved Reloaded Skyblock
-#packmode expert
+#Modpack: Infinity Evolved Reloaded: Skyblock
 
 print("Initialize 'Claybuckets.zs' ...");
 

@@ -1,7 +1,6 @@
 #Name: Denseores.zs
 #Author: Irgendwer
-#Modpack: Infinity Evolved Reloaded Skyblock
-#packmode expert
+#Modpack: Infinity Evolved Reloaded: Skyblock
 
 print("initalizing 'Denseores.zs'");
 

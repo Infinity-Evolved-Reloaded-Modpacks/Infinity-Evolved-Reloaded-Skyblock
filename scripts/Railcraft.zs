@@ -1,8 +1,9 @@
 #Name: Railcraft.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded
-#packmode expert
+#Modpack: Infinity Evolved Reloaded: Skyblock
+
 import moretweaker.railcraft.BlastFurnace;
+
 print("Initializing 'Railcraft.zs'...");
 
 #Anchors or WorldSpikes

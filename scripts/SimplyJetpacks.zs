@@ -1,7 +1,6 @@
 #Name: SimplyJetpacks.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded
-#packmode expert
+#Modpack: Infinity Evolved Reloaded: Skyblock
 
 print("Initializing 'SimplyJetpacks.zs'...");
 
