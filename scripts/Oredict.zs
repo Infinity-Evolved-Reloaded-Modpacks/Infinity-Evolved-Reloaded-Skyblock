@@ -14,6 +14,10 @@ brass.addAll(alubrass);
 val dustEnder = <ore:dustEnder>;
 val dustEnderPearl = <ore:dustEnderPearl>;
 
+#Yellorium Ore
+furnace.remove(<ic2:ingot:8>);
+furnace.addRecipe(<bigreactors:ingotyellorium>,<bigreactors:oreyellorite>);
+
 dustEnderPearl.addAll(dustEnder); 
 
 print("Initialized 'Oredict.zs'");
