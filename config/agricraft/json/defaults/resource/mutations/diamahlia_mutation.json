@@ -1,6 +1,6 @@
 {
   "path": "resource/mutations/diamahlia_mutation.json",
-  "enabled": false,
+  "enabled": true,
   "chance": 0.25,
   "child": "resource:diamahlia_plant",
   "parent1": "resource:aurigold_plant",
