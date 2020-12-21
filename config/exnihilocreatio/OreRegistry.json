@@ -1,13 +1,5 @@
 [
   {
-    "name": "Mithril",
-    "color": "3b9eb4",
-    "oredictName": "Mithril",
-    "translations": {
-      "en_us": "Mithril"
-    }
-  },
-  {
     "name": "gold",
     "color": "ffff00",
     "ingot": "minecraft:gold_ingot:-1",
