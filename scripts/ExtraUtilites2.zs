@@ -10,12 +10,6 @@ recipes.addShaped(<extrautils2:wateringcan>, [[<ore:ingotSteel>, <minecraft:dye:
 
 #Bedrock Portal
 recipes.remove(<extrautils2:teleporter:1>);
-recipes.addShaped(<extrautils2:teleporter:1>, 
-[
-    [<extrautils2:compressedcobblestone:3>, <unstabletools:unstable_ingot>, <extrautils2:compressedcobblestone:3>], 
-    [<unstabletools:unstable_ingot>, <extrautils2:compressedcobblestone:4>, <unstabletools:unstable_ingot>], 
-    [<extrautils2:compressedcobblestone:3>, <unstabletools:unstable_ingot>, <extrautils2:compressedcobblestone:3>]
-]);
 
 #Generators
 recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"}));
