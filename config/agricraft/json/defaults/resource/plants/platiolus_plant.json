@@ -1,6 +1,6 @@
 {
   "path": "resource/plants/platiolus_plant.json",
-  "enabled": false,
+  "enabled": true,
   "id": "resource:platiolus_plant",
   "plant_name": "Platiolus",
   "seed_name": "Platiolus Seeds",

@@ -1,6 +1,6 @@
 {
   "path": "resource/plants/plombean_plant.json",
-  "enabled": false,
+  "enabled": true,
   "id": "resource:plombean_plant",
   "plant_name": "Plombean",
   "seed_name": "Plombean Seeds",
