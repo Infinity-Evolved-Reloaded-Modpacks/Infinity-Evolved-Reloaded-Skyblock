@@ -1,6 +1,7 @@
 #Name: MinecraftGettingStarted.zs
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded: Skyblock
+import crafttweaker.item.IItemStack as IItemStack;
 
 print("Initializing 'MinecraftGettingStarted.zs'...");
 #Recipe Remove for variant things
