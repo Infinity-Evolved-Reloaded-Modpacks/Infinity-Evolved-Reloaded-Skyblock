@@ -1,8 +1,8 @@
 {
 	title: "This will burn my fingers!",
 	icon: "minecraft:furnace",
-	x: 1.75d,
-	y: 2.625d,
+	x: -2.0d,
+	y: -2.5d,
 	text: [
 		"The first steps towards a civilized way of life."
 	],

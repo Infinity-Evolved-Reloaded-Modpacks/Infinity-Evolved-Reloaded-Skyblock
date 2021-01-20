@@ -10,7 +10,8 @@
 			uuid: "Global",
 			username: "Global",
 			height: 2
-		}
+		},
+		Count: 1b
 	},
 	x: 8.458333333333332d,
 	y: 6.958333333333333d,
@@ -35,7 +36,8 @@
 				uuid: "Global",
 				username: "Global",
 				height: 2
-			}
+			},
+			Count: 1b
 		}],
 		ignore_nbt: 1b
 	}],

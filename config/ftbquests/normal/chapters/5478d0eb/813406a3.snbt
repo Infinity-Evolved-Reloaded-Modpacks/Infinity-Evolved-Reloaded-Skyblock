@@ -1,8 +1,8 @@
 {
 	title: "Crooking all the leaves",
 	icon: "exnihilocreatio:crook_wood",
-	x: 4.5d,
-	y: -0.5d,
+	x: 2.0d,
+	y: -2.5d,
 	text: [
 		"§l Silkworms will be your first source of String.",
 		"§r Break Leaves with a crook to get Silkworms, then rightclick any Leaves with the Silkworms to generate infested leaves after that break them with a crook to get string."

@@ -1,11 +1,14 @@
 {
 	title: "Breaking Bread",
 	icon: "railcraft:coke_oven",
-	x: 13.0d,
-	y: 2.083333333333333d,
+	x: -1.5d,
+	y: 0.5d,
 	shape: "square",
 	text: [
 		"Alternative to the Immersive Engineering Coke Oven"
+	],
+	dependencies: [
+		"75fad71c"
 	],
 	tasks: [{
 		uid: "e9412c0a",

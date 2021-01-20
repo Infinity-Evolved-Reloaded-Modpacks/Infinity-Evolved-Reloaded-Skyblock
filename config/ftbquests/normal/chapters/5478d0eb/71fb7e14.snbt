@@ -1,8 +1,8 @@
 {
 	title: "Dirty Dancing",
 	icon: "exnihilocreatio:block_barrel0",
-	x: 2.5d,
-	y: -1.0d,
+	x: 0.0d,
+	y: -1.5d,
 	text: [
 		"§lThe Barrel will be one of the most needed blocks early for you.",
 		"",

@@ -1,15 +1,14 @@
 {
 	icon: "botania:cosmetic 1 31",
-	x: 7.5d,
-	y: 1.0d,
+	x: -1.0d,
+	y: -3.5d,
 	shape: "gear",
 	text: [
-		"§lWelcome to Infinity Evolved Reloaded! ",
+		"§lWelcome to Infinity Evolved Reloaded Skyblock! ",
 		"",
 		"§rFirst of all thank you for downloading our Pack and we hope you enjoy playing it.",
 		"",
-		"This questbook is designed to guide you through the Expert Mode. But can also be completed in Normal Mode.",
-		"If you want switch to Expert Mode, use the \"/packmode expert\" command and a client restart afterwards."
+		"This questbook is designed to guide you through this pack."
 	],
 	dependency_requirement: "all_started",
 	tasks: [{

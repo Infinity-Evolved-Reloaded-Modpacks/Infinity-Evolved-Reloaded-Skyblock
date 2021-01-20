@@ -1,0 +1,27 @@
+{
+	title: "Automated Sifting and Hammering",
+	x: 4.5d,
+	y: 5.5d,
+	text: [
+		"",
+		"",
+		"Automating Sifting and Hammering is the earliest way automating Resources, but at cost of RF."
+	],
+	dependencies: [
+		"40f8677b"
+	],
+	tasks: [{
+		uid: "b21da80a",
+		type: "item",
+		items: [{
+			item: "excompressum:auto_sieve"
+		}]
+	},
+	{
+		uid: "da40b570",
+		type: "item",
+		items: [{
+			item: "excompressum:auto_hammer"
+		}]
+	}]
+}

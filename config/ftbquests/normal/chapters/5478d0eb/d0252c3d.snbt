@@ -1,8 +1,8 @@
 {
 	title: "Who Made Buckets So Hard?",
 	icon: "forestry:can",
-	x: 5.0d,
-	y: 6.0d,
+	x: 1.0d,
+	y: 2.5d,
 	text: [
 		"As you may or may not have noticed, the recipe for Buckets has drastically changed. In the meanwhile, Lava can be moved to a Smeltery via the Can from Forestry! You can use it for other stuff too, I guess. They cannot place fluids in the world, however.",
 		"",
