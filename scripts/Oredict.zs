@@ -1,6 +1,8 @@
 #Name: Oredict.zs
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded: Skyblock
+import mods.jei.JEI.removeAndHide as rh;
+import crafttweaker.item.IIngredient;
 
 print("Initializing 'Oredict.zs'...");
 
