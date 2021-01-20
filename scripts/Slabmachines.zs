@@ -1,6 +1,6 @@
 #Name: Slabmachines.zs
 #Author: Irgendwer
-#Modpack: Infinity Evolved: Reloaded
+#Modpack: Infinity Evolved Reloaded: Skyblock
 
 print("Initalizing 'Slabmachines.zs'");
 
