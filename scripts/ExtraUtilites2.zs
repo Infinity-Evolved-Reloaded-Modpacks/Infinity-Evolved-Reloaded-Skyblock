@@ -98,7 +98,7 @@ recipes.remove(<extrautils2:ingredients:7>);
 recipes.remove(<extrautils2:ingredients:6>);
 recipes.addShaped(<extrautils2:ingredients:7>, [[<ore:xuUpgradeBlank>, <extrautils2:ingredients:9>, <extrautils2:ingredients:9>], [<ore:blockRedstone>, <minecraft:emerald>, <ore:blockRedstone>], [<ore:xuUpgradeBlank>, <ore:xuUpgradeBlank>, <ore:xuUpgradeBlank>]]);
 recipes.addShaped(<extrautils2:ingredients:6>, [[<ore:xuUpgradeBlank>, <extrautils2:ingredients:9>, <extrautils2:ingredients:9>], [<ore:blockRedstone>, <minecraft:diamond>, <ore:blockRedstone>], [<ore:xuUpgradeBlank>, <ore:xuUpgradeBlank>, <ore:xuUpgradeBlank>]]);
-recipes.addShaped(<extrautils2:ingredients:8>, [[<ore:xuUpgradeBlank>, <extrautils2:ingredients:9>, <extrautils2:ingredients:9>], [<ore:blockRedstone>, <ore:ingotGold>, <ore:blockRedstone>], [<ore:xuUpgradeBlank>, <ore:xuUpgradeBlank>, <ore:xuUpgradeBlank>]]);
+recipes.addShaped(<extrautils2:ingredients:8>, [[<minecraft:dye:4>, <minecraft:iron_ingot>, <minecraft:dye:4>], [<minecraft:iron_ingot>, <minecraft:diamond_pickaxe>, <minecraft:iron_ingot>], [<minecraft:dye:4>, <minecraft:iron_ingot>, <minecraft:dye:4>]]);
 
 #Angel Ring - Invisible Wings
 recipes.remove(<extrautils2:angelring>);
