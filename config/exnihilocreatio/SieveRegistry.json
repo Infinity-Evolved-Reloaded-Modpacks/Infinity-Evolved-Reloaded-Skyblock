@@ -152,17 +152,17 @@
     },
 	{
 	  "drop": "bewitchment:cypress_sapling",
-      "chance": 0.01
+      "chance": 0.01,
       "meshLevel": 4
 	},
 	{
 	  "drop": "bewitchment:elder_sapling",
-      "chance": 0.01
+      "chance": 0.01,
       "meshLevel": 4
 	},
 	{
 	  "drop": "bewitchment:juniper_sapling",
-      "chance": 0.01
+      "chance": 0.01,
       "meshLevel": 4
 	}
   ],
