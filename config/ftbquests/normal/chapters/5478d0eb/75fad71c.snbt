@@ -1,7 +1,7 @@
 {
 	title: "All The Clay",
-	x: 3.5d,
-	y: -3.0d,
+	x: 0.0d,
+	y: 0.0d,
 	text: [
 		"§l Use Bottles to fill Water from your Cobblestone generator into the Barrel, the water source will not get consumed.",
 		"§rDoes All the Clay really contain All Clay? Of course not."

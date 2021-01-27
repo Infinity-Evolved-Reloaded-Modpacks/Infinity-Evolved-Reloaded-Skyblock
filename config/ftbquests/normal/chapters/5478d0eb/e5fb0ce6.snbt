@@ -33,8 +33,8 @@
 			}
 		}
 	},
-	x: 2.6666666666666665d,
-	y: 3.875d,
+	x: 1.0d,
+	y: -3.5d,
 	text: [
 		"You know the Ball of Moss? Well, it isn't what it was anymore.... But we got the Mending Moss!",
 		"Right click with a Ball of Moss on a Bookshelf while carrying 10 XP levels at you and the moss will turn into Mending Moss. Tools with this modifier will store some XP and repair themselves, consuming the XP. Stacking it will allow you to store more XP."

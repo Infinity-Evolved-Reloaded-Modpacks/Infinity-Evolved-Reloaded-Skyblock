@@ -1,11 +1,14 @@
 {
 	title: "You're Gonna Get Splinters",
 	icon: "minecraft:log",
-	x: 3.0d,
-	y: 1.0d,
+	x: 0.0d,
+	y: -2.5d,
 	shape: "square",
 	text: [
 		"Punching trees! Getting wood! Excitement!"
+	],
+	dependencies: [
+		"74b391df"
 	],
 	tasks: [{
 		uid: "7046c5d7",

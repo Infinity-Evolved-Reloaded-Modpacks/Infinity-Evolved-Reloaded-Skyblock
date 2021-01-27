@@ -1,8 +1,8 @@
 {
 	title: "Goes Great with Pancakes!",
 	icon: "ic2:crafting",
-	x: 1.4166666666666665d,
-	y: 0.9583333333333333d,
+	x: 0.0d,
+	y: -3.5d,
 	text: [
 		"",
 		"§lRubber, made from a sticky goo. Obtained kinda like Maple Syrup.",
@@ -44,6 +44,13 @@
 					Name: "Any itemRubber"
 				}
 			}
+		}]
+	},
+	{
+		uid: "50b82d39",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_seed_rubber"
 		}]
 	}],
 	rewards: [{

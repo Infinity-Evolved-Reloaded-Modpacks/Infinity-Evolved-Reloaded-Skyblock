@@ -6,8 +6,8 @@
 			Type: "extrautils2:generator_survival"
 		}
 	},
-	x: 7.791666666666667d,
-	y: 6.5d,
+	x: 3.5d,
+	y: 2.5d,
 	text: [
 		"§lItty-bitty generation speed. The Survivalist Generator is incredibly slow, but fuel efficient. ",
 		"",

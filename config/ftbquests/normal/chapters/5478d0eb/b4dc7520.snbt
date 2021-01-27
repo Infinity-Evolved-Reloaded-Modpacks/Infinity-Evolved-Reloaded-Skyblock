@@ -1,8 +1,8 @@
 {
 	title: "Tools of the Trade",
 	icon: "ic2:forge_hammer",
-	x: 13.375d,
-	y: -0.08333333333333337d,
+	x: -3.0d,
+	y: 0.0d,
 	text: [
 		"§lThese tools are rather inefficient but early-game methods of getting parts for machinery.",
 		"",
@@ -14,6 +14,7 @@
 		"a5332dd3",
 		"c5f5f0a7"
 	],
+	dependency_requirement: "one_completed",
 	tasks: [{
 		uid: "b8ccf2b6",
 		type: "item",

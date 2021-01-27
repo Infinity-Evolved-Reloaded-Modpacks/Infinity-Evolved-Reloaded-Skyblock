@@ -1,7 +1,7 @@
 {
 	title: "Its getting hot in here",
-	x: 5.5d,
-	y: -4.0d,
+	x: 0.0d,
+	y: 1.5d,
 	text: [
 		"§lThe Crucible will generate Lava by putting Cobblestone in it and when it has a Heat source under it.",
 		"§rLook in JEI for valid Heat Sources."

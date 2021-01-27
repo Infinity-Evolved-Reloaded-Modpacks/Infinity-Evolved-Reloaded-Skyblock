@@ -11,7 +11,6 @@
 		"Place the Laser Base 1 block below the build limit, so you can place a chest on it to collect the materials. The higher you place it, the less RF it requires. The Laser Base must have either Void or Bedrock underneath it, nothing else. That means you must dig directly below it until it hits Bedrock, or place it somewhere that has access to the Void."
 	],
 	dependencies: [
-		"01c6f616",
 		"c45075d9"
 	],
 	tasks: [{

@@ -1,8 +1,8 @@
 {
 	title: "So Heats",
 	icon: "buildcraftsilicon:laser",
-	x: 9.333333333333334d,
-	y: 6.458333333333333d,
+	x: 2.5d,
+	y: 3.0d,
 	text: [
 		"§4§lDisclaimer: §rUse the Energy Converters from the \"Energy Converters\" Mod to aquire MJ from RF!",
 		"",
