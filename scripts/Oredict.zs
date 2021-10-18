@@ -138,7 +138,6 @@ recipes.addShaped(<thermalfoundation:material:132>,[[<thermalfoundation:material
 
 #dustEnderPearl
 <ore:dustEnderPearl>.remove(<appliedenergistics2:material:46>);
-<ore:dustEnderPearl>.remove(<portalgun:item_dust_ender_pearl>);
 <ore:dustEnderPearl>.remove(<ic2:dust:31>);
 
 #DustEnder

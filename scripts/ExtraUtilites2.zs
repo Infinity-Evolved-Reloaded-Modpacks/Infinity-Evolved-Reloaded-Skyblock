@@ -141,6 +141,6 @@ recipes.addShaped(<darkutils:trap_tile:2>, [[null, null, null], [<ore:stone>, <r
 
 #Flame Trap
 recipes.remove(<darkutils:trap_tile:4>);
-recipes.addShaped(<darkutils:trap_tile:4>, [[null, null, null], [<ore:stone>, <natura:flint_and_blaze>, <ore:stone>], [null, null, null]]);
+recipes.addShaped(<darkutils:trap_tile:4>, [[null, null, null], [<ore:stone>, <minecraft:flint_and_steel>, <ore:stone>], [null, null, null]]);
 
 print("Initialized 'ExtraUtilites2.zs'");
