@@ -141,4 +141,22 @@ recipes.addShaped(<thaumcraft:crystal_perditio>, [[<thaumcraft:crystal_essence>.
 #Void Metal Ingot Removal from Arc Furnace
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thaumcraft:ingot:1>);
 
+#Greatwood Sapling
+mods.thaumcraft.Infusion.registerRecipe("GreatwoodSapling", "", <thaumcraft:sapling_greatwood>, 2, [<aspect:ignis>* 64, <aspect:aer>* 64,  <aspect:aqua>* 64, <aspect:ordo>* 64, <aspect:perditio>* 64, <aspect:terra>* 64], <minecraft:sapling:3>, [<forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000}), <thaumcraft:shimmerleaf>, <thaumcraft:cinderpearl>,]);
+
+#Silverwood Sapling
+mods.thaumcraft.Infusion.registerRecipe("SilverwoodSapling", "", <thaumcraft:sapling_silverwood>, 2, [<aspect:permutatio>* 64, <aspect:praecantatio>* 64, <aspect:vitreus>* 64], <thaumcraft:sapling_greatwood>, [<thaumcraft:vishroom>, <thaumcraft:vishroom>, <thaumcraft:vishroom>, <thaumcraft:vishroom>, <thaumcraft:salis_mundus>, <thaumcraft:salis_mundus>, <minecraft:diamond_block>, <minecraft:diamond_block>]);
+
+#shimmerleaf
+mods.thaumcraft.Crucible.registerRecipe("Shimmerleaf", "", <thaumcraft:shimmerleaf>, <thaumcraft:cinderpearl>, [<aspect:aer>* 5, <aspect:praecantatio>* 5, <aspect:terra>* 5]);
+
+#Greatwood Log
+mods.thaumcraft.Crucible.registerRecipe("GreatwoodLog", "", <thaumcraft:log_greatwood>, <minecraft:log>, [<aspect:praecantatio>, <aspect:terra>* 3]); 
+
+#Silverwood Log
+mods.thaumcraft.Crucible.registerRecipe("SilverwoodLog", "", <thaumcraft:log_silverwood>, <minecraft:log:2>, [<aspect:ordo>, <aspect:praecantatio>, <aspect:terra>* 3]);
+
+#Vishroom
+mods.thaumcraft.Crucible.registerRecipe("Vishroom", "", <thaumcraft:vishroom>, <minecraft:brown_mushroom>, [<aspect:praecantatio>, <aspect:terra>* 2]);
+
 print("Initialized 'Thaumcraft.zs'");
