@@ -63,4 +63,14 @@ recipes.addShaped(<ic2:nuclear:10>, [[<ic2:plate:12>, <ic2:plate:12>, <ic2:plate
 recipes.remove(<ic2:te:24>);
 recipes.addShaped(<ic2:te:24>, [[<ic2:iodine_tablet>, <ore:plateLead>, <ic2:iodine_tablet>], [<ore:plateLead>, <ic2:resource:12>, <ore:plateLead>], [<ic2:iodine_tablet>, <ore:plateLead>, <ic2:iodine_tablet>]]);
 
+#Uran
+recipes.remove(<ic2:resource:10>);
+recipes.remove(<ic2:ingot:8>*9);
+recipes.remove(<ic2:nuclear:2>*9);
+#recipes.addShaped(<ic2:resource:10>,[[<ore:ingotUranium>,<ore:ingotUranium>,<ore:ingotUranium>],[<ore:ingotUranium>,<ore:ingotUranium>,<ore:ingotUranium>],[<ore:ingotUranium>,<ore:ingotUranium>,<ore:ingotUranium>]]);
+
+#Ender Pearl Dust (IC2)
+mods.thermalexpansion.Factorizer.removeRecipeSplit(<enderio:item_material:28>);
+mods.appliedenergistics2.Grinder.removeRecipe(<minecraft:ender_pearl>);
+
 print("Initialized 'IndustrialCraft2.zs'");

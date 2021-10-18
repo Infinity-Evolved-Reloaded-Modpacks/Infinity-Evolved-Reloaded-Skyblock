@@ -1,9 +1,9 @@
-#Name: RemoveAndHide.zs
-#Author: Sander
-#Modpack: Infinity Evolved Reloaded: Skyblock
-
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
+
+#Name: Gears.zs
+#Author: Sander
+#Modpack: Infinity Evolved Reloaded: Skyblock
 
 print("Initializing 'RemoveAndHide.zs'...");
 
@@ -32,6 +32,17 @@ var recipesToRemove = [
 	<ic2:bronze_leggings>,
 	<advanced_solar_panels:double_stone_slab>,
 	<extrautils2:unstableingots>,
+	<netherendingores:ore_end_modded_1:*>,
+	<netherendingores:ore_nether_modded_1:12>,
+	<netherendingores:ore_nether_modded_1:11>,
+	<netherendingores:ore_nether_modded_1:14>,
+	<netherendingores:ore_nether_modded_1:15>,
+	<netherendingores:ore_nether_modded_2>,
+	<netherendingores:ore_nether_modded_1:2>,
+	<netherendingores:ore_other_1:*>,
+	<netherendingores:ore_end_modded_2>,
+	<netherendingores:ore_end_vanilla:*>,
+	<twilightforest:uncrafting_table>,
 	<randomthings:blockbreaker>,
 	<randomthings:spectrecoil_normal>,
 	<randomthings:spectrecoil_redstone>,
@@ -57,7 +68,8 @@ var recipesToRemove = [
 	<extrautils2:passivegenerator:2>,
 	<ic2:te:4>,
 	<immersiveengineering:metal_device1:3>,
-	<thermalexpansion:dynamo:1>
+	<thermalexpansion:dynamo:1>,
+	<tconstruct:wooden_hopper>
 ] as IItemStack[];
 
 for items in recipesToRemove {

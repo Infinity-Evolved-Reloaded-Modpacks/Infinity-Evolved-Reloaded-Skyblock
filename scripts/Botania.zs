@@ -1,8 +1,9 @@
 #Name: Botania.zs
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded: Skyblock
+import mods.thaumcraft.Infusion;
 
-print("Initializing 'Botania.zs'...");
+print("Initializing 'botania.zs'...");
 
 #Manasteel
 mods.botania.ManaInfusion.removeRecipe(<botania:manaresource>);
@@ -159,7 +160,8 @@ recipes.remove(<botania:rfgenerator>);
 recipes.remove(<botania:spreader:3>);
 recipes.addShaped(<botania:spreader:3>, [[null, null, null], [<botania:manaresource:5>, <botania:spreader:2>, <botania:manaresource:9>], [null, null, null]]);
 
-#Mana Tesseract
-recipes.remove(<botanicadds:mana_tesseract>);
+#Add Metal Blocks Smeltery Recipe
+mods.tconstruct.Casting.addBasinRecipe(<botania:storage:0>, null, <liquid:manasteel>, 1296);
+mods.tconstruct.Casting.addBasinRecipe(<botania:storage:1>, null, <liquid:terrasteel>, 1296);
 
-print("Initialized 'Botania.zs'");
+print("Initialized 'botania.zs'");

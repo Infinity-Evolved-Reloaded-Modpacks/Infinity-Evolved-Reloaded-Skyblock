@@ -2,8 +2,8 @@
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded: Skyblock
 import crafttweaker.item.IItemStack as IItemStack;
-
 print("Initializing 'MinecraftGettingStarted.zs'...");
+
 #Recipe Remove for variant things
     var WoodArray = [
         # Log, Plank
@@ -89,6 +89,27 @@ print("Initializing 'MinecraftGettingStarted.zs'...");
         [<extratrees:logs.fireproof.9:3>, <forestry:planks.vanilla.fireproof.0:3>],
         [<extratrees:logs.fireproof.9:2>, <forestry:planks.fireproof.0:15>],
 
+        [<biomesoplenty:log_0:4>, <biomesoplenty:planks_0:0>],
+        [<biomesoplenty:log_0:5>, <biomesoplenty:planks_0:1>],
+        [<biomesoplenty:log_0:6>, <biomesoplenty:planks_0:2>],
+        [<biomesoplenty:log_0:7>, <biomesoplenty:planks_0:3>],
+        [<biomesoplenty:log_1:4>, <biomesoplenty:planks_0:4>],
+        [<biomesoplenty:log_1:5>, <biomesoplenty:planks_0:5>],
+        [<biomesoplenty:log_1:6>, <biomesoplenty:planks_0:6>],
+        [<biomesoplenty:log_1:7>, <biomesoplenty:planks_0:7>],
+        [<biomesoplenty:log_2:4>, <biomesoplenty:planks_0:8>],
+        [<biomesoplenty:log_2:5>, <biomesoplenty:planks_0:9>],
+        [<biomesoplenty:log_2:6>, <biomesoplenty:planks_0:10>],
+        [<biomesoplenty:log_2:7>, <biomesoplenty:planks_0:11>],
+        [<biomesoplenty:log_3:4>, <biomesoplenty:planks_0:12>],
+        [<biomesoplenty:log_3:5>, <biomesoplenty:planks_0:13>],
+        [<biomesoplenty:log_3:6>, <biomesoplenty:planks_0:14>],
+        [<biomesoplenty:log_3:7>, <biomesoplenty:planks_0:15>],
+        [<biomesoplenty:log_2:6> ,<forestry:planks.1:4>],
+        [<biomesoplenty:log_2:5>, <forestry:planks.0:12>],
+        [<biomesoplenty:log_1:7>, <forestry:planks.1:2>],
+        [<biomesoplenty:log_3:5>, <forestry:planks.0:10>],
+
         [<bewitchment:cypress_wood>, <bewitchment:cypress_planks>],
         [<bewitchment:elder_wood>, <bewitchment:elder_planks>],
         [<bewitchment:dragons_blood_wood>, <bewitchment:dragons_blood_planks>],
@@ -164,6 +185,30 @@ print("Initializing 'MinecraftGettingStarted.zs'...");
 
         [<thaumcraft:log_greatwood>, <thaumcraft:plank_greatwood>],
         [<thaumcraft:log_silverwood>, <thaumcraft:plank_silverwood>],
+
+        [<natura:nether_logs2:15>, <natura:nether_planks:1>],
+        [<natura:nether_logs2>, <natura:nether_planks:1>],
+        [<natura:overworld_logs:1>, <natura:overworld_planks:1>],
+        [<natura:overworld_logs>, <natura:overworld_planks>],
+        [<natura:overworld_logs2:3>, <natura:overworld_planks:7>],
+        [<natura:overworld_logs2:2>, <natura:overworld_planks:6>],
+        [<natura:overworld_logs:2>, <natura:overworld_planks:2>],
+        [<natura:overworld_logs:3>, <natura:overworld_planks:3>],
+        [<natura:nether_logs:2>, <natura:nether_planks:3>],
+        [<natura:overworld_logs2>, <natura:overworld_planks:4>],
+        [<natura:nether_logs>, <natura:nether_planks>],
+        [<natura:nether_logs:1>, <natura:nether_planks:2>],
+        [<natura:overworld_logs2:1>, <natura:overworld_planks:5>],
+        [<natura:redwood_logs:1>, <natura:overworld_planks:8>],
+
+        [<twilightforest:magic_log:2>, <twilightforest:mine_planks>],
+        [<twilightforest:magic_log:3>, <twilightforest:sort_planks>],
+        [<twilightforest:twilight_log>, <twilightforest:twilight_oak_planks>],
+        [<twilightforest:magic_log>, <twilightforest:time_planks>],
+        [<twilightforest:twilight_log:1>, <twilightforest:canopy_planks>],
+        [<twilightforest:magic_log:1>, <twilightforest:trans_planks>],
+        [<twilightforest:twilight_log:2>, <twilightforest:mangrove_planks>],
+        [<twilightforest:twilight_log:3>, <twilightforest:dark_planks>],
 
  ] as crafttweaker.item.IItemStack[][];
 
@@ -253,55 +298,163 @@ var RecipeIDsRemove as string[] = [
 recipes.remove(<minecraft:stick>);
 
 # --Stick 2x Adding
-recipes.addShapedMirrored(<minecraft:stick> * 2, 
-[
-    [null, <ore:plankWood>, null], 
-    [null, <ore:plankWood>, null], 
-    [null, null, null]
-]);
+recipes.addShapeless(<minecraft:stick> * 2, [<ore:plankWood>, <ore:plankWood>]);
 
 # --Stick 8x Adding
-recipes.addShaped(<minecraft:stick> * 8, 
-[
-    [null, <ore:logWood>, null], 
-    [null, <ore:logWood>, null], 
-    [null, null, null]
-]);
+recipes.addShapeless(<minecraft:stick> * 8, [<ore:logWood>, <ore:logWood>]);
 
 #Chest
-recipes.removeShaped(<minecraft:chest> *4, [[<ore:logWood>, <ore:logWood>, <ore:logWood>], [<ore:logWood>, null, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
-recipes.addShaped(<minecraft:chest> *2, [[<ore:logWood>, <ore:logWood>, <ore:logWood>], [<ore:logWood>, null, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+recipes.removeShaped(<minecraft:chest> *4, [
+    [<ore:logWood>, <ore:logWood>, <ore:logWood>],
+    [<ore:logWood>, null, <ore:logWood>],
+    [<ore:logWood>, <ore:logWood>, <ore:logWood>]
+]);
+
+recipes.addShaped(<minecraft:chest> *2, [
+    [<ore:logWood>, <ore:logWood>, <ore:logWood>],
+    [<ore:logWood>, null, <ore:logWood>],
+    [<ore:logWood>, <ore:logWood>, <ore:logWood>]
+]);
 
 #Furnace
 recipes.remove(<minecraft:furnace>);
-recipes.addShaped(<minecraft:furnace>, [[<ore:compressed1xCobblestone>, <ore:compressed1xCobblestone>, <ore:compressed1xCobblestone>], [<ore:compressed1xCobblestone>, null, <ore:compressed1xCobblestone>], [<ore:compressed1xCobblestone>, <ore:compressed1xCobblestone>, <extrautils2:compressedcobblestone>]]);
+recipes.addShaped(<minecraft:furnace>, [
+    [<ore:compressed1xCobblestone>, <ore:compressed1xCobblestone>, <ore:compressed1xCobblestone>],
+    [<ore:compressed1xCobblestone>, null, <ore:compressed1xCobblestone>],
+    [<ore:compressed1xCobblestone>, <ore:compressed1xCobblestone>, <extrautils2:compressedcobblestone>]
+]);
 
 #Flint and Steel
 recipes.remove(<minecraft:flint_and_steel>);
-recipes.addShaped(<minecraft:flint_and_steel>, [[<ore:ingotSteel>, null, null], [null, <ore:itemFlint>, null], [null, null, null]]);
+recipes.addShaped(<minecraft:flint_and_steel>, [
+    [<ore:ingotSteel>, null, null],
+    [null, <ore:itemFlint>, null],
+    [null, null, null]
+]);
 
 #Bucket
 recipes.remove(<minecraft:bucket>);
-recipes.addShaped(<minecraft:bucket>, [[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateIron>, null]]);
+recipes.addShaped(<minecraft:bucket>, [
+    [null, null, null],
+    [<ore:plateIron>, null, <ore:plateIron>],
+    [null, <ore:plateIron>, null]
+]);
 
 #Cauldron
 recipes.remove(<minecraft:cauldron>);
-recipes.addShaped(<minecraft:cauldron>, [[<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.addShaped(<minecraft:cauldron>, [
+    [<ore:plateIron>, null, <ore:plateIron>],
+    [<ore:plateIron>, null, <ore:plateIron>],
+    [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]
+]);
 
-recipes.addShaped(<minecraft:diamond_boots>, [[<minecraft:diamond>, <minecraft:golden_boots>, <minecraft:diamond>], [<minecraft:diamond>, null, <minecraft:diamond>]]);
-recipes.addShaped(<minecraft:diamond_leggings>, [[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:golden_leggings>, <minecraft:diamond>], [<minecraft:diamond>, null, <minecraft:diamond>]]);
-recipes.addShaped(<minecraft:diamond_chestplate>, [[<minecraft:diamond>, <minecraft:golden_chestplate>, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]]);
-recipes.addShaped(<minecraft:diamond_helmet>, [[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:golden_helmet>, <minecraft:diamond>]]);
-recipes.addShaped(<minecraft:golden_boots>, [[<minecraft:gold_ingot>, <minecraft:iron_boots>, <minecraft:gold_ingot>], [<minecraft:gold_ingot>, null, <minecraft:gold_ingot>]]);
-recipes.addShaped(<minecraft:golden_leggings>, [[<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>], [<minecraft:gold_ingot>, <minecraft:iron_leggings>, <minecraft:gold_ingot>], [<minecraft:gold_ingot>, null, <minecraft:gold_ingot>]]);
-recipes.addShaped(<minecraft:golden_chestplate>, [[<minecraft:gold_ingot>, <minecraft:iron_chestplate>, <minecraft:gold_ingot>], [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>], [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>]]);
-recipes.addShaped(<minecraft:golden_helmet>, [[<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>], [<minecraft:gold_ingot>, <minecraft:iron_helmet>, <minecraft:gold_ingot>]]);
-recipes.addShaped(<minecraft:iron_boots>, [[<minecraft:iron_ingot>, <harvestcraft:hardenedleatherbootsitem>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>]]);
-recipes.addShaped(<minecraft:iron_leggings>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <harvestcraft:hardenedleatherleggingsitem>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>]]);
-recipes.addShaped(<minecraft:iron_chestplate>, [[<minecraft:iron_ingot>, <harvestcraft:hardenedleatherchestitem>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
-recipes.addShaped(<minecraft:iron_helmet>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, <harvestcraft:hardenedleatherhelmitem>, <ore:ingotIron>]]);
+#Vanilla Armor
 
-#vanilla tool nerfs
+# - Diamond
+recipes.addShaped(<minecraft:diamond_boots>, [
+    [null, null, null],
+    [<minecraft:diamond>, <minecraft:golden_boots>, <minecraft:diamond>],
+    [<minecraft:diamond>, null, <minecraft:diamond>]
+]);
+
+recipes.addShaped(<minecraft:diamond_leggings>, [
+    [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>],
+    [<minecraft:diamond>, <minecraft:golden_leggings>, <minecraft:diamond>],
+    [<minecraft:diamond>, null, <minecraft:diamond>]
+]);
+
+recipes.addShaped(<minecraft:diamond_chestplate>, [
+    [<minecraft:diamond>, <minecraft:golden_chestplate>, <minecraft:diamond>],
+    [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>],
+    [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]
+]);
+
+recipes.addShaped(<minecraft:diamond_helmet>, [
+    [null, null, null],
+    [<minecraft:diamond>, <minecraft:golden_helmet>, <minecraft:diamond>],
+    [<minecraft:diamond>, null, <minecraft:diamond>]
+]);
+
+# - Gold
+recipes.addShaped(<minecraft:golden_boots>, [
+    [null, null, null],
+    [<minecraft:gold_ingot>, <minecraft:iron_boots>, <minecraft:gold_ingot>],
+    [<minecraft:gold_ingot>, null, <minecraft:gold_ingot>]
+]);
+
+recipes.addShaped(<minecraft:golden_leggings>, [
+    [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>],
+    [<minecraft:gold_ingot>, <minecraft:iron_leggings>, <minecraft:gold_ingot>],
+    [<minecraft:gold_ingot>, null, <minecraft:gold_ingot>]
+]);
+
+recipes.addShaped(<minecraft:golden_chestplate>, [
+    [<minecraft:gold_ingot>, <minecraft:iron_chestplate>, <minecraft:gold_ingot>],
+    [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>],
+    [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>]
+]);
+
+recipes.addShaped(<minecraft:golden_helmet>, [
+    [null, null, null],
+    [<minecraft:gold_ingot>, <minecraft:iron_helmet>, <minecraft:gold_ingot>],
+    [<minecraft:gold_ingot>, null, <minecraft:gold_ingot>]
+]);
+
+# - Iron
+recipes.addShaped(<minecraft:iron_boots>, [
+    [null, null, null],
+    [<minecraft:iron_ingot>, <harvestcraft:hardenedleatherbootsitem>, <minecraft:iron_ingot>],
+    [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>]
+]);
+
+recipes.addShaped(<minecraft:iron_leggings>, [
+    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
+    [<minecraft:iron_ingot>, <harvestcraft:hardenedleatherleggingsitem>, <minecraft:iron_ingot>],
+    [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>]
+]);
+
+recipes.addShaped(<minecraft:iron_chestplate>, [
+    [<minecraft:iron_ingot>, <harvestcraft:hardenedleatherchestitem>, <minecraft:iron_ingot>],
+    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
+    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
+]);
+
+recipes.addShaped(<minecraft:iron_helmet>, [
+    [null, null, null],
+    [<minecraft:iron_ingot>, <harvestcraft:hardenedleatherhelmitem>, <minecraft:iron_ingot>],
+    [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>]
+]);
+
+# - Leather
+recipes.addShaped(<minecraft:leather_boots>, [
+    [null, null, null],
+    [<harvestcraft:hardenedleatheritem>, null, <harvestcraft:hardenedleatheritem>],
+    [<ore:itemRubber>, null, <ore:itemRubber>]
+]);
+
+recipes.addShaped(<minecraft:leather_leggings>, [
+    [<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>],
+    [<harvestcraft:hardenedleatheritem>, <ore:itemRubber>, <harvestcraft:hardenedleatheritem>],
+    [<harvestcraft:hardenedleatheritem>, null, <harvestcraft:hardenedleatheritem>]
+]);
+
+recipes.addShaped(<minecraft:leather_chestplate>, [
+    [<harvestcraft:hardenedleatheritem>, <ore:itemRubber>, <harvestcraft:hardenedleatheritem>],
+    [<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>],
+    [<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>]
+]);
+
+recipes.addShaped(<minecraft:leather_helmet>, [
+    [null, null, null],
+    [<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>],
+    [<harvestcraft:hardenedleatheritem>, <ore:itemRubber>, <harvestcraft:hardenedleatheritem>]
+]);
+
+
+
+
+
+#durability nerf
 <minecraft:golden_axe>.maxDamage = 1;
 <minecraft:golden_shovel>.maxDamage = 1;
 <minecraft:golden_pickaxe>.maxDamage = 1;
@@ -340,6 +493,5 @@ recipes.addShaped(<minecraft:iron_helmet>, [[<ore:ingotIron>, <ore:ingotIron>, <
 <projectred-exploration:peridot_chestplate>.maxDamage = 16;
 <projectred-exploration:peridot_leggings>.maxDamage = 16;
 <projectred-exploration:peridot_boots>.maxDamage = 16;
-
 
 print("Initialized 'MinecraftGettingStarted.zs'");

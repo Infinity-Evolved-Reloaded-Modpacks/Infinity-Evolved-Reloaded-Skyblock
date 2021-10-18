@@ -2,7 +2,7 @@
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded: Skyblock
 
-print("Initializing 'Avaritia.zs'...");
+print("Initializing 'avaritia.zs'...");
 
 #Infinity Helmet
 mods.avaritia.ExtremeCrafting.remove(<avaritia:infinity_helmet>);
@@ -254,6 +254,11 @@ mods.avaritia.ExtremeCrafting.addShapeless(
     <ore:cropAvocado>,
     <ore:cropWalnut>]);
 
+#Increase Infinity Casting Time
+mods.tconstruct.Casting.removeBasinRecipe(<avaritia:block_resource:1>);
+mods.tconstruct.Casting.addBasinRecipe(<avaritia:block_resource:1>, null, <liquid:infinity>, 1296, false, 72000);
 
+mods.tconstruct.Casting.removeTableRecipe(<avaritia:resource:6>);
+mods.tconstruct.Casting.addTableRecipe(<avaritia:resource:6>, <tconstruct:cast_custom:0>, <liquid:infinity>, 144, false, 8000);
 
-print("Initialized 'Avaritia.zs'");
+print("Initialized 'avaritia.zs'");

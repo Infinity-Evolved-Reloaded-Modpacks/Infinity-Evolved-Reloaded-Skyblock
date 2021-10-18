@@ -1,10 +1,8 @@
 #Name: BloodMagic.zs
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded: Skyblock
-
 import mods.thaumcraft.Infusion;
-
-print("Initializing 'bloodmagic.zs'...");
+print("Initializing 'Bloodmagic.zs'...");
 
 #General
 # -Blood Altar
@@ -32,8 +30,8 @@ recipes.remove(<bloodmagic:teleposer>);
 recipes.addShaped(<bloodmagic:teleposer>, [[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], [<botania:manaresource:1>, <bloodmagic:teleposition_focus>, <botania:manaresource:1>], [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]]);
 mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:ender_pearl>);
 mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:teleposition_focus>, <botania:manaresource:1>, 4, 2000, 10, 10);
-mods.bloodmagic.BloodAltar.removeRecipe(<bloodmagic:teleposition_focus:1>);
-mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:teleposition_focus:1>, <minecraft:nether_star>, 4, 10000, 10, 10);
+mods.bloodmagic.BloodAltar.removeRecipe(<bloodmagic:teleposition_focus>);
+mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:teleposition_focus:1>, <minecraft:nether_star>, 3, 10000, 10, 10);
 
 # -Runes
 recipes.remove(<bloodmagic:blood_rune>);
@@ -77,7 +75,7 @@ mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:inscription_tool:4>, <botania:r
 
 # -Sigils
 recipes.remove(<bloodmagic:sigil_divination>);
-recipes.addShaped(<bloodmagic:sigil_divination>, [[<botania:managlass>, <thaumcraft:nitor_yellow>, <botania:managlass>], [<botania:managlass>, <bloodmagic:slate>, <botania:managlass>], [<botania:managlass>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}).reuse()]]);
+recipes.addShaped(<bloodmagic:sigil_divination>, [[<botania:managlass>, <thaumcraft:nitor_yellow>, <botania:managlass>], [<botania:managlass>, <bloodmagic:slate>, <botania:managlass>], [<botania:managlass>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}).reuse(), <botania:managlass>]]);
 recipes.remove(<bloodmagic:sigil_water>);
 recipes.addShaped(<bloodmagic:sigil_water>, [[<bloodmagic:component>, <bloodmagic:ritual_diviner:1>, <bloodmagic:component>], [<minecraft:water_bucket>, <bloodmagic:slate:2>, <minecraft:water_bucket>], [<minecraft:water_bucket>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}), <minecraft:water_bucket>]]);
 recipes.remove(<bloodmagic:sigil_lava>);
@@ -112,8 +110,14 @@ mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:gold_block>);
 mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}), <thaumcraft:metal_thaumium>, 2, 25000, 25, 25);
 mods.bloodmagic.BloodAltar.removeRecipe(<bloodmagic:blood_shard>);
 mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:master"}), <enderio:item_soul_vial:1>.withTag({entityId: "thaumcraft:eldritchguardian"}), 3, 40000, 30, 50);
+mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:nether_star>);
+mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:archmage"}), <bloodmagic:blood_shard:1>, 4, 75000, 10, 10);
 
 #Crystal Cluster
 mods.thaumcraft.Infusion.registerRecipe("CrystalClusterBlock", "", <bloodmagic:decorative_brick:2>, 5, [<aspect:permutatio> * 64, <aspect:praecantatio> * 64, <aspect:fabrico> * 64, <aspect:spiritus> * 64], <bloodmagic:decorative_brick>, [<bloodmagic:slate>, <bloodmagic:slate>, <bloodmagic:slate:1>, <bloodmagic:slate:1>, <bloodmagic:item_demon_crystal:1>, <bloodmagic:item_demon_crystal:1>, <botania:manaresource:14>, <botania:manaresource:14>]);
 
-print("Initialized 'bloodmagic.zs'");
+#Demon Blood Shard
+var soulcontainer = <bloodmagic:soul_gem:2>.withTag({souls: 1024.0});
+mods.bloodmagic.AlchemyTable.addRecipe(<bloodmagic:blood_shard:1>, [<bloodmagic:blood_shard>, <bloodmagic:item_demon_crystal>, soulcontainer], 20000, 100, 3);
+
+print("Initialized 'Bloodmagic.zs'");
