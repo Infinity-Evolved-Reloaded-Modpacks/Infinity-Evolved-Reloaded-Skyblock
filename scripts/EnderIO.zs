@@ -1,8 +1,12 @@
 #Name: EnderIO.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded: Skyblock
+#modpack: Infinity Evolved Reloaded
+#packmode expert
 
 print("Initializing 'EnderIO.zs'...");
+
+#Broken Spawner
+recipes.addShaped(<enderio:item_broken_spawner>, [[<enderio:block_dark_iron_bars>, <enderio:block_dark_iron_bars>, <enderio:block_dark_iron_bars>], [<enderio:block_dark_iron_bars>, <enderio:block_dark_iron_bars>, <enderio:block_dark_iron_bars>], [<enderio:block_dark_iron_bars>, <enderio:block_dark_iron_bars>, <enderio:block_dark_iron_bars>]]);
 
 #Weather Obelisk
 recipes.remove(<enderio:block_weather_obelisk>);

@@ -1,6 +1,7 @@
 #Name: Oredict.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded: Skyblock
+#Modpack: Infinity Evolved Reloaded
+#packmode expert
 import mods.jei.JEI.removeAndHide as rh;
 import crafttweaker.item.IIngredient;
 

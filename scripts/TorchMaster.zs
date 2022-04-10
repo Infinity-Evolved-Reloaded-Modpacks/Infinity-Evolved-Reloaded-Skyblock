@@ -1,6 +1,7 @@
 #Name: TorchMaster.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded: Skyblock
+#Modpack: Infinity Evolved Reloaded
+#packmode expert
 
 print("Initializing 'TorchMaster.zs'...");
 

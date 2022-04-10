@@ -13,12 +13,7 @@ recipes.addShaped(<extrautils2:wateringcan>, [[<ore:ingotSteel>, <minecraft:dye:
 
 #Bedrock Portal
 recipes.remove(<extrautils2:teleporter:1>);
-recipes.addShaped(<extrautils2:teleporter:1>, 
-[
-    [<extrautils2:compressedcobblestone:3>, <unstabletools:unstable_ingot>, <extrautils2:compressedcobblestone:3>], 
-    [<unstabletools:unstable_ingot>, <extrautils2:compressedcobblestone:4>, <unstabletools:unstable_ingot>], 
-    [<extrautils2:compressedcobblestone:3>, <unstabletools:unstable_ingot>, <extrautils2:compressedcobblestone:3>]
-]);
+
 #Generators
 recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"}));
 recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_potion"}));
@@ -103,7 +98,7 @@ recipes.remove(<extrautils2:ingredients:7>);
 recipes.remove(<extrautils2:ingredients:6>);
 recipes.addShaped(<extrautils2:ingredients:7>, [[<ore:xuUpgradeBlank>, <extrautils2:ingredients:9>, <extrautils2:ingredients:9>], [<ore:blockRedstone>, <minecraft:emerald>, <ore:blockRedstone>], [<ore:xuUpgradeBlank>, <ore:xuUpgradeBlank>, <ore:xuUpgradeBlank>]]);
 recipes.addShaped(<extrautils2:ingredients:6>, [[<ore:xuUpgradeBlank>, <extrautils2:ingredients:9>, <extrautils2:ingredients:9>], [<ore:blockRedstone>, <minecraft:diamond>, <ore:blockRedstone>], [<ore:xuUpgradeBlank>, <ore:xuUpgradeBlank>, <ore:xuUpgradeBlank>]]);
-recipes.addShaped(<extrautils2:ingredients:8>, [[<ore:xuUpgradeBlank>, <extrautils2:ingredients:9>, <extrautils2:ingredients:9>], [<ore:blockRedstone>, <ore:ingotGold>, <ore:blockRedstone>], [<ore:xuUpgradeBlank>, <ore:xuUpgradeBlank>, <ore:xuUpgradeBlank>]]);
+recipes.addShaped(<extrautils2:ingredients:8>, [[<minecraft:dye:4>, <minecraft:iron_ingot>, <minecraft:dye:4>], [<minecraft:iron_ingot>, <minecraft:diamond_pickaxe>, <minecraft:iron_ingot>], [<minecraft:dye:4>, <minecraft:iron_ingot>, <minecraft:dye:4>]]);
 
 #Angel Ring - Invisible Wings
 var FluxPackResonant = <simplyjetpacks:itemfluxpack:10>.withTag({Energy: 80000000});

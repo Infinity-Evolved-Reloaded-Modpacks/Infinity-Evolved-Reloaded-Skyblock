@@ -1,11 +1,10 @@
 #Name: Thaumcraft.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded: Skyblock
-
+#Modpack: Infinity Evolved Reloaded
+#packmode expert
 import mods.thaumcraft.ArcaneWorkbench;
 import mods.thaumcraft.Crucible;
 import mods.thaumcraft.Infusion;
-
 print("Initializing 'Thaumcraft.zs'...");
 
 #General
@@ -151,7 +150,7 @@ mods.thaumcraft.Infusion.registerRecipe("SilverwoodSapling", "", <thaumcraft:sap
 mods.thaumcraft.Crucible.registerRecipe("Shimmerleaf", "", <thaumcraft:shimmerleaf>, <thaumcraft:cinderpearl>, [<aspect:aer>* 5, <aspect:praecantatio>* 5, <aspect:terra>* 5]);
 
 #Greatwood Log
-mods.thaumcraft.Crucible.registerRecipe("GreatwoodLog", "", <thaumcraft:log_greatwood>, <minecraft:log>, [<aspect:praecantatio>, <aspect:terra>* 3]); 
+mods.thaumcraft.Crucible.registerRecipe("GreatwoodLog", "", <thaumcraft:log_greatwood>, <minecraft:log>, [<aspect:praecantatio>, <aspect:terra>* 3]);
 
 #Silverwood Log
 mods.thaumcraft.Crucible.registerRecipe("SilverwoodLog", "", <thaumcraft:log_silverwood>, <minecraft:log:2>, [<aspect:ordo>, <aspect:praecantatio>, <aspect:terra>* 3]);
