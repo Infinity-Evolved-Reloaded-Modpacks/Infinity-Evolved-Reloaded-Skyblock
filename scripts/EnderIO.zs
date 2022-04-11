@@ -6,7 +6,7 @@
 print("Initializing 'EnderIO.zs'...");
 
 #Broken Spawner
-recipes.addShaped(<enderio:item_broken_spawner>, [[<enderio:block_dark_iron_bars>, <enderio:block_dark_iron_bars>, <enderio:block_dark_iron_bars>], [<enderio:block_dark_iron_bars>, <enderio:block_dark_iron_bars>, <enderio:block_dark_iron_bars>], [<enderio:block_dark_iron_bars>, <enderio:block_dark_iron_bars>, <enderio:block_dark_iron_bars>]]);
+recipes.addShaped(<enderio:item_broken_spawner>, [[<enderio:block_dark_iron_bars>, <enderio:block_dark_iron_bars>, <enderio:block_dark_iron_bars>], [<enderio:block_dark_iron_bars>, null, <enderio:block_dark_iron_bars>], [<enderio:block_dark_iron_bars>, <enderio:block_dark_iron_bars>, <enderio:block_dark_iron_bars>]]);
 
 #Weather Obelisk
 recipes.remove(<enderio:block_weather_obelisk>);
