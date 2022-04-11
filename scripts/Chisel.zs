@@ -1,6 +1,7 @@
 #Name: Chisel.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded: Skyblock
+#Modpack: Infinity Evolved Reloaded
+#packmode expert
 import mods.chisel.Carving.addVariation;
 
 print("Initializing 'Chisel.zs'...");
@@ -11,4 +12,5 @@ recipes.addShaped(<chisel:futura> * 8, [[<ore:stone>, <ore:stone>, <ore:stone>],
 
 #Basalt
 addVariation("basalt", <ic2:resource>);
+
 print("Initialized 'Chisel.zs'");

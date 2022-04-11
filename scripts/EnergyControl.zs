@@ -1,6 +1,7 @@
 #Name: EnergyControl.zs
-#Author: Sander
-#Modpack: Infinity Evolved Reloaded: Skyblock
+#Author: Eranio
+#Modpack: Infinity Evolved Reloaded
+#packmode expert
 
 print("Initializing 'EnergyControl.zs'...");
 

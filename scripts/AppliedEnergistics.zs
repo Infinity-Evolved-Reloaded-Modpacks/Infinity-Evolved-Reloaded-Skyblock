@@ -2,7 +2,15 @@
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded: Skyblock
 
+import moretweaker.railcraft.RollingMachine;
+
 print("Initializing 'AppliedEnergistics.zs'...");
+
+#Inscriber Presses
+RollingMachine.addShapeless(<appliedenergistics2:material:19>, [<ore:itemSilicon>, <minecraft:iron_block>]);
+RollingMachine.addShapeless(<appliedenergistics2:material:15>, [<minecraft:gold_ingot>, <minecraft:iron_block>]);
+RollingMachine.addShapeless(<appliedenergistics2:material:14>, [<minecraft:diamond>, <minecraft:iron_block>]);
+RollingMachine.addShapeless(<appliedenergistics2:material:13>, [<appliedenergistics2:material:10>, <minecraft:iron_block>]);
 
 #Wrench
 recipes.remove(<appliedenergistics2:certus_quartz_wrench>);
@@ -40,5 +48,13 @@ recipes.addShaped(<ae2wtlib:infinity_booster_card>, [
 
 #Ender Pearl Dust AE2
 mods.thermalexpansion.Pulverizer.addRecipe(<appliedenergistics2:material:46>, <minecraft:ender_pearl>, 1500);
+
+#Pattern Expansion Card
+recipes.remove (<appliedenergistics2:material:58>);
+recipes.addShaped(<appliedenergistics2:material:58>, [
+    [<appliedenergistics2:material:52>, <appliedenergistics2:interface>, <appliedenergistics2:material:52>],
+    [<appliedenergistics2:material:52>, <appliedenergistics2:material:28>, <appliedenergistics2:material:52>],
+    [<appliedenergistics2:material:52>, <appliedenergistics2:interface>, <appliedenergistics2:material:52>]
+]);
 
 print("Initialized 'AppliedEnergistics.zs'");

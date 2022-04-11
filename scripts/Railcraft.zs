@@ -1,6 +1,7 @@
 #Name: Railcraft.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded: Skyblock
+#Modpack: Infinity Evolved Reloaded
+#packmode expert
 import moretweaker.railcraft.BlastFurnace;
 import moretweaker.railcraft.CokeOven;
 print("Initializing 'Railcraft.zs'...");

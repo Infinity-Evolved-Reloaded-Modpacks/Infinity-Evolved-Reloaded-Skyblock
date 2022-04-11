@@ -2,8 +2,8 @@
 #Author: Sander
 #Modpack: Infinity Evolved Reloaded: Skyblock
 import crafttweaker.item.IItemStack as IItemStack;
-print("Initializing 'MinecraftGettingStarted.zs'...");
 
+print("Initializing 'MinecraftGettingStarted.zs'...");
 #Recipe Remove for variant things
     var WoodArray = [
         # Log, Plank
@@ -88,6 +88,7 @@ print("Initializing 'MinecraftGettingStarted.zs'...");
         [<extratrees:logs.fireproof.9:1>, <extratrees:planks.fireproof.2:3>],
         [<extratrees:logs.fireproof.9:3>, <forestry:planks.vanilla.fireproof.0:3>],
         [<extratrees:logs.fireproof.9:2>, <forestry:planks.fireproof.0:15>],
+
 
         [<bewitchment:cypress_wood>, <bewitchment:cypress_planks>],
         [<bewitchment:elder_wood>, <bewitchment:elder_planks>],
@@ -231,7 +232,6 @@ var CraftingOnlyTools = [
 var RecipeIDsRemove as string[] = [
 
     #Stick recipes that were added by several mods
-	    "twilightforest:stick",
         "stevescarts:component/twig_sticks",
         "enderio:tweak_stick_from_wood",
         "extrautils2:shortcut_stick",

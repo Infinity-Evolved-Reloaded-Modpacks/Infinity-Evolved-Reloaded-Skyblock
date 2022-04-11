@@ -1,6 +1,7 @@
 #Name: Alloys.zs
 #Author: Irgendwer
-#Modpack: Infinity Evolved Reloaded: Skyblock
+#Modpack: Infinity Evolved Reloaded
+#packmode expert
 
 print("initalizing 'Alloys.zs'");
 

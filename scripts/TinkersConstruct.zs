@@ -1,6 +1,7 @@
 #Name: TinkersConstruct
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded: Skyblock
+#Modpack: Infinity Evolved Reloaded
+#packmode expert
 
 print("Initializing 'TinkersConstruct.zs'...");
 
@@ -47,7 +48,8 @@ mods.tconstruct.Alloy.addRecipe(<liquid:liquid_fairy> * 16, [<liquid:ardite> * 8
 
 #Draconium
 mods.tconstruct.Melting.addRecipe(<liquid:liquid_draconium> * 144, <draconicevolution:draconium_ingot>);
-mods.tconstruct.Melting.addRecipe(<liquid:liquid_draconium> * 1296, <draconicevolution:draconium_block>);
+mods.tconstruct.Melting.addRecipe(<liquid:liquid_draconium> * 1296, <draconicevolution:draconium_block>
+);
 
 #Primal Mana
 mods.tconstruct.Alloy.removeRecipe(<liquid:mana>);

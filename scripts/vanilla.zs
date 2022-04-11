@@ -1,6 +1,7 @@
 #Name vanilla.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded: Skyblock
+#Modpack: Infinity Evolved Reloaded
+#packmode expert
 
 print("Initializing 'vanilla.zs'...");
 
@@ -10,7 +11,7 @@ recipes.addShaped(<minecraft:ender_chest>, [[<minecraft:ender_eye>, <minecraft:e
 #Elytra
 recipes.addShaped(<minecraft:elytra>, [
     [<extrautils2:opinium:5>, <minecraft:end_rod>, <extrautils2:opinium:5>], 
-    [<minecraft:feather>, <enderio:item_material:7>, <minecraft:feather>], 
+    [<minecraft:feather>, <enderio:item_material:7>, <minecraft:feather>],
     [<minecraft:feather>, null, <minecraft:feather>]
 ]);
 

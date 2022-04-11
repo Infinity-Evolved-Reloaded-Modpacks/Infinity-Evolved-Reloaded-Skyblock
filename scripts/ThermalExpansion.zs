@@ -1,6 +1,7 @@
 #Name: ThermalExpansion.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded: Skyblock
+#Modpack: Infinity Evolved Reloaded
+#packmode expert
 import mods.buildcraft.AssemblyTable;
 print("Initializing 'ThermalExpansion.zs'...");
 

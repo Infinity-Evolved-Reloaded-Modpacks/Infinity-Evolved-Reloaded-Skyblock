@@ -1,6 +1,7 @@
 #Name: BloodMagic.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded: Skyblock
+#Modpack: Infinity Evolved Reloaded
+#packmode expert
 import mods.thaumcraft.Infusion;
 print("Initializing 'Bloodmagic.zs'...");
 

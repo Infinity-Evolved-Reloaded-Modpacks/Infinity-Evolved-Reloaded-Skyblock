@@ -1,6 +1,7 @@
 #Name: CookingforBlockheads.zs
 #Author: Sander
-#Modpack: Infinity Evolved Reloaded: Skyblock
+#Modpack: Infinity Evolved Reloaded
+#packmode expert
 
 print("initalizing 'CookingforBlockheads.zs'");
 
