@@ -1,15 +1,15 @@
 {
 	title: "Diggy Diggy Hole",
 	icon: {
-		ForgeCaps: {
-			Parent: {
-				Size: 9,
-				Items: []
-			}
-		},
 		id: "draconicevolution:wyvern_pick",
 		tag: {
 			Energy: 4000000
+		},
+		ForgeCaps: {
+			Parent: {
+				Items: [],
+				Size: 9
+			}
 		}
 	},
 	x: 9.0d,
@@ -26,26 +26,26 @@
 		uid: "2f6662e3",
 		type: "item",
 		icon: {
-			ForgeCaps: {
-				Parent: {
-					Size: 9,
-					Items: []
-				}
-			},
 			id: "draconicevolution:wyvern_pick",
 			tag: {
 				Energy: 4000000
+			},
+			ForgeCaps: {
+				Parent: {
+					Items: [],
+					Size: 9
+				}
 			}
 		},
 		items: [{
+			id: "draconicevolution:wyvern_pick",
+			Damage: 32767s,
 			ForgeCaps: {
 				Parent: {
-					Size: 9,
-					Items: []
+					Items: [],
+					Size: 9
 				}
-			},
-			id: "draconicevolution:wyvern_pick",
-			Damage: 32767s
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

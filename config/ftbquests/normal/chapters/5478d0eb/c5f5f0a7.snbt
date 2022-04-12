@@ -32,16 +32,16 @@
 		uid: "6bc0a3e4",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "fuelCoke",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any fuelCoke"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "fuelCoke"
 				}
 			}
 		}]

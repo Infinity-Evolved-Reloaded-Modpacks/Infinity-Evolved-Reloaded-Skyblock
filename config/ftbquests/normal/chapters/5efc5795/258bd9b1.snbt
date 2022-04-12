@@ -2,11 +2,11 @@
 	title: "Questionably Moral Flight",
 	icon: {
 		id: "simplyjetpacks:itemjetpack",
+		Damage: 15s,
 		tag: {
 			Energy: 0,
 			JetpackParticle: 0
-		},
-		Damage: 15s
+		}
 	},
 	x: 8.5d,
 	y: 4.5d,
@@ -24,11 +24,11 @@
 		type: "item",
 		items: [{
 			id: "simplyjetpacks:itemjetpack",
+			Damage: 15s,
 			tag: {
 				Energy: 0,
 				JetpackParticle: 0
-			},
-			Damage: 15s
+			}
 		}],
 		ignore_nbt: 1b
 	}]

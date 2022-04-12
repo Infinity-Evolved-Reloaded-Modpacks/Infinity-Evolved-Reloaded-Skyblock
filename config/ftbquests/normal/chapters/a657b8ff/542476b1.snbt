@@ -2,10 +2,10 @@
 	title: "Give No Flux Capacitor",
 	icon: {
 		id: "thermalexpansion:capacitor",
+		Damage: 32000s,
 		tag: {
 			Energy: 25000000
-		},
-		Damage: 32000s
+		}
 	},
 	x: 4.625000000000001d,
 	y: 3.854166666666667d,
@@ -24,10 +24,10 @@
 		type: "item",
 		items: [{
 			id: "thermalexpansion:capacitor",
+			Damage: 32000s,
 			tag: {
 				Energy: 25000000
-			},
-			Damage: 32000s
+			}
 		}],
 		ignore_nbt: 1b
 	}],

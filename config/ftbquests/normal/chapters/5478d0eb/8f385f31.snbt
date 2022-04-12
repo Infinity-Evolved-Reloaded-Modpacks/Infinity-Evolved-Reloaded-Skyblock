@@ -32,16 +32,16 @@
 		uid: "378ae403",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "itemRubber",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any itemRubber"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "itemRubber"
 				}
 			}
 		}]

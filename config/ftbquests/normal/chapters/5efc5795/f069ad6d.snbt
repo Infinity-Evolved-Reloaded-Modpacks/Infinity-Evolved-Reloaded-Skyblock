@@ -2,11 +2,11 @@
 	title: "Iron Man",
 	icon: {
 		id: "simplyjetpacks:itemjetpack",
+		Damage: 24s,
 		tag: {
 			Energy: 0,
 			JetpackParticle: 0
-		},
-		Damage: 24s
+		}
 	},
 	x: 7.5d,
 	y: 4.5d,
@@ -25,11 +25,11 @@
 		type: "item",
 		items: [{
 			id: "simplyjetpacks:itemjetpack",
+			Damage: 24s,
 			tag: {
 				Energy: 0,
 				JetpackParticle: 0
-			},
-			Damage: 24s
+			}
 		}],
 		ignore_nbt: 1b
 	}]

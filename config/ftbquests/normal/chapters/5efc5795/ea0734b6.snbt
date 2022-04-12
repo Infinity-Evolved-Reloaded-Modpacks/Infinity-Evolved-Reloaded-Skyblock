@@ -2,11 +2,11 @@
 	title: "Vibrant Jetpack",
 	icon: {
 		id: "simplyjetpacks:itemjetpack",
+		Damage: 10s,
 		tag: {
 			Energy: 0,
 			JetpackParticle: 0
-		},
-		Damage: 10s
+		}
 	},
 	x: 8.0d,
 	y: 3.5d,
@@ -21,11 +21,11 @@
 		type: "item",
 		items: [{
 			id: "simplyjetpacks:itemjetpack",
+			Damage: 10s,
 			tag: {
 				Energy: 0,
 				JetpackParticle: 0
-			},
-			Damage: 10s
+			}
 		}],
 		ignore_nbt: 1b
 	}]

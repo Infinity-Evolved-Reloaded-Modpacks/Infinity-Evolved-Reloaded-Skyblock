@@ -2,11 +2,11 @@
 	title: "Electrical Steel Jetpack",
 	icon: {
 		id: "simplyjetpacks:itemjetpack",
+		Damage: 8s,
 		tag: {
 			Energy: 0,
 			JetpackParticle: 0
-		},
-		Damage: 8s
+		}
 	},
 	x: 9.0d,
 	y: 1.5d,
@@ -23,11 +23,11 @@
 		type: "item",
 		items: [{
 			id: "simplyjetpacks:itemjetpack",
+			Damage: 8s,
 			tag: {
 				Energy: 0,
 				JetpackParticle: 0
-			},
-			Damage: 8s
+			}
 		}],
 		ignore_nbt: 1b
 	}]

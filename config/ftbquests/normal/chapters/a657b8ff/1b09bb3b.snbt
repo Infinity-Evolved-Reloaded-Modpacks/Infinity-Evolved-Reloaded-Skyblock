@@ -1,15 +1,15 @@
 {
 	title: "Diggier Diggier Hole",
 	icon: {
-		ForgeCaps: {
-			Parent: {
-				Size: 18,
-				Items: []
-			}
-		},
 		id: "draconicevolution:draconic_shovel",
 		tag: {
 			Energy: 16000000
+		},
+		ForgeCaps: {
+			Parent: {
+				Items: [],
+				Size: 18
+			}
 		}
 	},
 	x: 10.5d,
@@ -27,17 +27,17 @@
 		uid: "a658f4a2",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					Size: 18,
-					Items: []
-				}
-			},
 			id: "draconicevolution:draconic_shovel",
+			Damage: 32767s,
 			tag: {
 				Energy: 16000000
 			},
-			Damage: 32767s
+			ForgeCaps: {
+				Parent: {
+					Items: [],
+					Size: 18
+				}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

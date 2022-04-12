@@ -1,15 +1,15 @@
 {
 	title: "Harder, Better, Faster, Stronger",
 	icon: {
-		ForgeCaps: {
-			Parent: {
-				Size: 36,
-				Items: []
-			}
-		},
 		id: "draconicadditions:chaotic_staff_of_power",
 		tag: {
 			Energy: 60000000
+		},
+		ForgeCaps: {
+			Parent: {
+				Items: [],
+				Size: 36
+			}
 		}
 	},
 	x: 13.5d,
@@ -24,15 +24,15 @@
 		uid: "d2a668a4",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					Size: 36,
-					Items: []
-				}
-			},
 			id: "draconicadditions:chaotic_staff_of_power",
 			tag: {
 				Energy: 60000000
+			},
+			ForgeCaps: {
+				Parent: {
+					Items: [],
+					Size: 36
+				}
 			}
 		}],
 		ignore_damage: true,

@@ -2,6 +2,7 @@
 	title: "Solid to Fluid to Solid",
 	icon: {
 		id: "thermalexpansion:machine",
+		Damage: 8s,
 		tag: {
 			RSControl: 0b,
 			Facing: 3b,
@@ -15,8 +16,7 @@
 				2b
 			],
 			Level: 0b
-		},
-		Damage: 8s
+		}
 	},
 	x: 3.0d,
 	y: 4.0d,
@@ -35,6 +35,7 @@
 		type: "item",
 		items: [{
 			id: "thermalexpansion:machine",
+			Damage: 6s,
 			tag: {
 				RSControl: 0b,
 				Facing: 3b,
@@ -48,8 +49,7 @@
 					2b
 				],
 				Level: 0b
-			},
-			Damage: 6s
+			}
 		}]
 	},
 	{
@@ -57,6 +57,7 @@
 		type: "item",
 		items: [{
 			id: "thermalexpansion:machine",
+			Damage: 8s,
 			tag: {
 				RSControl: 0b,
 				Facing: 3b,
@@ -70,8 +71,7 @@
 					2b
 				],
 				Level: 0b
-			},
-			Damage: 8s
+			}
 		}]
 	}]
 }
