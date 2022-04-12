@@ -27,10 +27,10 @@
 		type: "item",
 		items: [{
 			id: "appliedenergistics2:crystal_seed",
+			Damage: 1200s,
 			tag: {
 				progress: 1200
-			},
-			Damage: 1200s
+			}
 		}],
 		ignore_nbt: 1b
 	}],

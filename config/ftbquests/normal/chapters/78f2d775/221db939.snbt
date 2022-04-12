@@ -15,16 +15,16 @@
 		uid: "a1c0190b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "seedBarley",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any seedBarley"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "seedBarley"
 				}
 			}
 		}]

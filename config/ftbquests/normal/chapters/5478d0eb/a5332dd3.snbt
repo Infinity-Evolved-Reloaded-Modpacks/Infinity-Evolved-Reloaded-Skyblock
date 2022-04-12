@@ -23,13 +23,13 @@
 		type: "item",
 		title: "Any fuelCoke",
 		items: [{
+			id: "itemfilters:filter",
 			ForgeCaps: {
 				Parent: {
-					data: "fuelCoke",
-					id: "ore"
+					id: "ore",
+					data: "fuelCoke"
 				}
-			},
-			id: "itemfilters:filter"
+			}
 		}]
 	}]
 }

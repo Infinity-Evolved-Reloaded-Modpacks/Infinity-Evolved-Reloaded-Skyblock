@@ -8,13 +8,13 @@
 	{
 		item: {
 			id: "botania:blacklotus",
+			Damage: 1s,
 			tag: {
 				RepairCost: 2,
 				display: {
 					Name: "1/10 of a Mana Pool"
 				}
-			},
-			Damage: 1s
+			}
 		}
 	}]
 }

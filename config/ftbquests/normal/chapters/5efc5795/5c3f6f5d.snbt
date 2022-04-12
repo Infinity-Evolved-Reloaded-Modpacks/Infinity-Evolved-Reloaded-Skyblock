@@ -26,16 +26,16 @@
 		uid: "dc36c504",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "blockSteel",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any blockSteel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockSteel"
 				}
 			}
 		}]

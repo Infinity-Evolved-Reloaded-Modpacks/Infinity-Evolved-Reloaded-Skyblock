@@ -21,8 +21,8 @@
 		type: "item",
 		items: [{
 			id: "botania:lexicon",
-			tag: {},
-			Damage: 32767s
+			Damage: 32767s,
+			tag: {}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

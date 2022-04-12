@@ -22,8 +22,8 @@
 		type: "item",
 		items: [{
 			id: "ic2:diamond_drill",
-			tag: {},
-			Damage: 26s
+			Damage: 26s,
+			tag: {}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

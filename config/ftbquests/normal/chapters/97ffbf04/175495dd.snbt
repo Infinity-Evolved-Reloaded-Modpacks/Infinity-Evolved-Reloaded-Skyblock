@@ -26,16 +26,16 @@
 		uid: "a8acda89",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "cast",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any cast"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "cast"
 				}
 			}
 		}]

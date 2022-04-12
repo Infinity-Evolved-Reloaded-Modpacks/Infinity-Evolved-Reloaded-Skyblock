@@ -2,6 +2,7 @@
 	title: "Advanced Combining",
 	icon: {
 		id: "thermalexpansion:machine",
+		Damage: 3s,
 		tag: {
 			RSControl: 0b,
 			Facing: 3b,
@@ -15,8 +16,7 @@
 				2b
 			],
 			Level: 0b
-		},
-		Damage: 3s
+		}
 	},
 	x: 3.0d,
 	y: 2.5d,
@@ -31,6 +31,7 @@
 		type: "item",
 		items: [{
 			id: "thermalexpansion:machine",
+			Damage: 3s,
 			tag: {
 				RSControl: 0b,
 				Facing: 3b,
@@ -44,8 +45,7 @@
 					2b
 				],
 				Level: 0b
-			},
-			Damage: 3s
+			}
 		}]
 	}]
 }

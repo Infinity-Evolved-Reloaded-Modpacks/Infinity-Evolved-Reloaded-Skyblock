@@ -1,15 +1,15 @@
 {
 	title: "Where'd That Mountain Go?",
 	icon: {
-		ForgeCaps: {
-			Parent: {
-				Size: 18,
-				Items: []
-			}
-		},
 		id: "draconicevolution:draconic_pick",
 		tag: {
 			Energy: 16000000
+		},
+		ForgeCaps: {
+			Parent: {
+				Items: [],
+				Size: 18
+			}
 		}
 	},
 	x: 10.5d,
@@ -27,17 +27,17 @@
 		uid: "745059c8",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					Size: 18,
-					Items: []
-				}
-			},
 			id: "draconicevolution:draconic_pick",
+			Damage: 32767s,
 			tag: {
 				Energy: 16000000
 			},
-			Damage: 32767s
+			ForgeCaps: {
+				Parent: {
+					Items: [],
+					Size: 18
+				}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

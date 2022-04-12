@@ -2,11 +2,11 @@
 	title: "Almost Best Flying",
 	icon: {
 		id: "simplyjetpacks:itemjetpack",
+		Damage: 19s,
 		tag: {
 			Energy: 0,
 			JetpackParticle: 0
-		},
-		Damage: 19s
+		}
 	},
 	x: 9.0d,
 	y: 5.5d,
@@ -21,11 +21,11 @@
 		type: "item",
 		items: [{
 			id: "simplyjetpacks:itemjetpack",
+			Damage: 19s,
 			tag: {
 				Energy: 0,
 				JetpackParticle: 0
-			},
-			Damage: 19s
+			}
 		}],
 		ignore_nbt: 1b
 	}]

@@ -2,10 +2,10 @@
 	title: "Portable Energy",
 	icon: {
 		id: "simplyjetpacks:itemfluxpack",
+		Damage: 7s,
 		tag: {
 			Energy: 0
-		},
-		Damage: 7s
+		}
 	},
 	x: 9.5d,
 	y: 8.5d,
@@ -22,10 +22,10 @@
 		type: "item",
 		items: [{
 			id: "simplyjetpacks:itemfluxpack",
+			Damage: 7s,
 			tag: {
 				Energy: 0
-			},
-			Damage: 7s
+			}
 		}],
 		ignore_nbt: 1b
 	}]

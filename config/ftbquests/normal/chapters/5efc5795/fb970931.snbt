@@ -2,11 +2,11 @@
 	title: "Energetic Jetpack",
 	icon: {
 		id: "simplyjetpacks:itemjetpack",
+		Damage: 9s,
 		tag: {
 			Energy: 0,
 			JetpackParticle: 0
-		},
-		Damage: 9s
+		}
 	},
 	x: 8.5d,
 	y: 2.5d,
@@ -21,11 +21,11 @@
 		type: "item",
 		items: [{
 			id: "simplyjetpacks:itemjetpack",
+			Damage: 9s,
 			tag: {
 				Energy: 0,
 				JetpackParticle: 0
-			},
-			Damage: 9s
+			}
 		}],
 		ignore_nbt: 1b
 	}]
