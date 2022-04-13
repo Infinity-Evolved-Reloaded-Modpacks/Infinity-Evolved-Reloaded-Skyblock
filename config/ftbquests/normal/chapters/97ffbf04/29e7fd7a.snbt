@@ -7,8 +7,11 @@
 		"So, now that we have Steel, we can finally progress into the Steel Age."
 	],
 	dependencies: [
-		"4dce88d3"
+		"4dce88d3",
+		"31daf230",
+		"908e0fd8"
 	],
+	dependency_requirement: "one_completed",
 	size: 1.3333333333333333d,
 	tasks: [{
 		uid: "d239fc58",

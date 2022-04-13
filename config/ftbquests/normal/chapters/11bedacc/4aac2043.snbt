@@ -1,0 +1,27 @@
+{
+	title: "Hiveacynth",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "hiveacynth"
+		}
+	},
+	x: -7.5d,
+	y: -12.0d,
+	text: [
+		"The Hiveacynth generates all the basic Bees you can find normally in Hives out of Mana."
+	],
+	dependencies: [
+		"773c3bea"
+	],
+	tasks: [{
+		uid: "385f012f",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "hiveacynth"
+			}
+		}]
+	}]
+}
