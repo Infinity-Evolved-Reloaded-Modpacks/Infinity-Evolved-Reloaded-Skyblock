@@ -142,4 +142,8 @@ recipes.addShaped(<thermalfoundation:material:132>,[[<thermalfoundation:material
 <ore:dustEnder>.remove(<ic2:dust:31>);
 <ore:dustEnder>.remove(<railcraft:dust:6>);
 
+#Aluminum
+val aluminum = <ore:oreAluminum>;
+aluminum.add(<exnihilocreatio:item_ore_aluminium:1>);
+
 print("Initialized 'Oredict.zs'");
