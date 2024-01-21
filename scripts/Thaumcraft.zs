@@ -81,8 +81,25 @@ recipes.remove(<thaumcraft:label>);
 recipes.addShaped(<thaumcraft:label>, [[<ore:dyeBlack>, <ore:slimeball>, <minecraft:paper>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [null, null, null]]);
 
 # -Greatwood & Silverwood
-mods.thaumcraft.ArcaneWorkbench.registerShapelessRecipe("RESEARCH", "",  1, [<aspect:terra>*2, <aspect:ordo>*2], <thaumcraft:plank_greatwood>*2, [<thaumcraft:log_greatwood>]);
-mods.thaumcraft.ArcaneWorkbench.registerShapelessRecipe("RESEARCH",  "", 1, [<aspect:terra>*2, <aspect:ordo>*2], <thaumcraft:plank_silverwood>*2, [<thaumcraft:log_silverwood>]);
+# logs
+mods.thaumcraft.Crucible.registerRecipe("GREATWOODLOG", "", <thaumcraft:log_greatwood>, <minecraft:log>, [<aspect:herba>*5, <aspect:praecantatio>*2]);
+mods.thaumcraft.Crucible.registerRecipe("SILVERWOODLOG", "", <thaumcraft:log_silverwood>, <minecraft:log:2>, [<aspect:herba>*5, <aspect:praecantatio>*2, <aspect:ordo>*2]);
+
+# planks
+recipes.remove(<thaumcraft:plank_greatwood>);
+recipes.remove(<thaumcraft:plank_silverwood>);
+mods.thaumcraft.ArcaneWorkbench.registerShapelessRecipe("GREATWOODPLANK", "", 1, [<aspect:terra>*2, <aspect:ordo>*2], <thaumcraft:plank_greatwood>*2, [<thaumcraft:log_greatwood>]);
+mods.thaumcraft.ArcaneWorkbench.registerShapelessRecipe("SILVERWOODPLANK", "", 1, [<aspect:terra>*2, <aspect:ordo>*2], <thaumcraft:plank_silverwood>*2, [<thaumcraft:log_silverwood>]);
+
+# saplings
+mods.thaumcraft.Infusion.registerRecipe(
+	"GREATWOODSAPLING", "", <thaumcraft:sapling_greatwood>, 50, [<aspect:herba>*128, <aspect:aer>*64, <aspect:terra>*64, <aspect:ignis>*64, <aspect:aqua>*64, <aspect:ordo>*64, <aspect:perditio>*64], <minecraft:sapling:3>,
+	[<forge:bucketfilled>.withTag({FluidName: "witchwater", Amount: 1000}), <thaumcraft:shimmerleaf>, <forge:bucketfilled>.withTag({FluidName: "witchwater", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "witchwater", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "witchwater", Amount: 1000}), <thaumcraft:cinderpearl>, <forge:bucketfilled>.withTag({FluidName: "witchwater", Amount: 1000}), <forge:bucketfilled>.withTag({FluidName: "witchwater", Amount: 1000})]
+);
+mods.thaumcraft.Infusion.registerRecipe(
+	"SILVERWOODSAPLING", "", <thaumcraft:sapling_silverwood>, 64, [<aspect:herba>*128, <aspect:aer>*64, <aspect:permutatio>*64, <aspect:praecantatio>*64, <aspect:vitreus>*64], <thaumcraft:sapling_greatwood>,
+	[<thaumcraft:shimmerleaf>, <minecraft:diamond_block>, <thaumcraft:shimmerleaf>, <thaumcraft:salis_mundus>, <thaumcraft:shimmerleaf>, <minecraft:diamond_block>, <thaumcraft:shimmerleaf>, <thaumcraft:salis_mundus>]
+);
 
 # -Table
 recipes.remove(<thaumcraft:table_wood>);
