@@ -95,4 +95,7 @@ recipes.addShaped(<enderio:item_conduit_probe>, [[<enderio:item_alloy_ingot>, <e
 recipes.remove(<enderio:block_slice_and_splice>);
 recipes.addShaped(<enderio:block_slice_and_splice>, [[<enderio:item_alloy_ingot:7>, <ore:itemSkull>, <enderio:item_alloy_ingot:7>], [<minecraft:iron_axe>, <enderio:item_material:1>, <minecraft:shears>], [<enderio:item_alloy_ingot:7>, <enderio:item_alloy_ingot:7>, <enderio:item_alloy_ingot:7>]]);
 
+#broken spawner craftable
+recipes.addShaped(<enderio:item_broken_spawner>, [[<enderio:block_dark_iron_bars>, <enderio:block_end_iron_bars>, <enderio:block_dark_iron_bars>], [<enderio:block_end_iron_bars>, null, <enderio:block_end_iron_bars>], [<enderio:block_dark_iron_bars>, <enderio:block_end_iron_bars>, <enderio:block_dark_iron_bars>]]);
+
 print("Initialized 'EnderIO.zs'");
