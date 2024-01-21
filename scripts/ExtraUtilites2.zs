@@ -11,9 +11,6 @@ recipes.addShaped(<extrautils2:itemcreativebuilderswand>, [[null, null, <unstabl
 recipes.remove(<extrautils2:wateringcan:*>);
 recipes.addShaped(<extrautils2:wateringcan>, [[<ore:ingotSteel>, <minecraft:dye:15>, <harvestcraft:beetseeditem>],  [<ore:ingotSteel>, <minecraft:bowl>, <ore:ingotSteel>], [<harvestcraft:kiwiseeditem>, <ore:ingotSteel>, <harvestcraft:cornseeditem>]]);
 
-#Bedrock Portal
-recipes.remove(<extrautils2:teleporter:1>);
-
 #Generators
 recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"}));
 recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_potion"}));
