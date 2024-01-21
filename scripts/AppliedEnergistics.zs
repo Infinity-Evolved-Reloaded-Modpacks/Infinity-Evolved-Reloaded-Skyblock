@@ -49,4 +49,12 @@ recipes.addShaped(<ae2wtlib:infinity_booster_card>, [
     [<appliedenergistics2:material:42>, <appliedenergistics2:material:41>, <appliedenergistics2:material:42>]
     ]);
 
+#Pattern Expansion Card
+recipes.remove (<appliedenergistics2:material:58>);
+recipes.addShaped(<appliedenergistics2:material:58>, [
+    [<appliedenergistics2:material:52>, <appliedenergistics2:interface>, <appliedenergistics2:material:52>],
+    [<appliedenergistics2:material:52>, <appliedenergistics2:material:28>, <appliedenergistics2:material:52>],
+    [<appliedenergistics2:material:52>, <appliedenergistics2:interface>, <appliedenergistics2:material:52>]
+]);
+
 print("Initialized 'AppliedEnergistics.zs'");
