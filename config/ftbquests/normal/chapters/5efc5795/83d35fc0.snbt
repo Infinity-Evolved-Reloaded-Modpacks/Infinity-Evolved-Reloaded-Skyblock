@@ -38,7 +38,7 @@
 		type: "item",
 		items: [{
 			id: "immersiveengineering:conveyor",
-			Count: 2b,
+			Count: 2,
 			tag: {
 				conveyorType: "immersiveengineering:conveyor"
 			}
