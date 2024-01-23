@@ -72,4 +72,11 @@ recipes.removeByRecipeName("thermalexpansion:tank_16");
 recipes.removeByRecipeName("thermalexpansion:tank_17");
 recipes.removeByRecipeName("thermalexpansion:tank_18");
 
+#remove creative energy cell recipe with creative conversion kit
+recipes.removeByRecipeName("thermalexpansion:cell_14");
+recipes.removeByRecipeName("thermalexpansion:cell_15");
+recipes.removeByRecipeName("thermalexpansion:cell_16");
+recipes.removeByRecipeName("thermalexpansion:cell_17");
+recipes.removeByRecipeName("thermalexpansion:cell_18");
+
 print("Initialized 'RemoveAndHide.zs'");
