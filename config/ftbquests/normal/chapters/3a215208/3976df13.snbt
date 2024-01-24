@@ -1,0 +1,20 @@
+{
+	title: "Official Wireless Crafting Terminal",
+	x: 14.220000000000002d,
+	y: 5.53d,
+	dependencies: [
+		"86a08e6d"
+	],
+	dependency_requirement: "one_started",
+	size: 1.58d,
+	tasks: [{
+		uid: "54fb9fbf",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_crafting_terminal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

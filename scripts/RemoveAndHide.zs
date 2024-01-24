@@ -7,12 +7,12 @@ import mods.jei.JEI.removeAndHide as rh;
 
 print("Initializing 'RemoveAndHide.zs'...");
 
-// The ids could change at any time, so I'll give them names
-// to at least know what they mean in the future.
+# The ids could change at any time, so I'll give them names
+# to at least know what they mean in the future.
 var fluxInfusedChestplateAssembly = <simplyjetpacks:metaitemmods:25>;
 var fluxedArmorPlating = <simplyjetpacks:metaitemmods:26>;
 var EU2LavaGen  = <extrautils2:machine>.withTag({Type: "extrautils2:generator_lava"});
-// Remove and Hide Items
+# Remove and Hide Items
 var recipesToRemove = [
 	<appliedenergistics2:nether_quartz_wrench>,
 	<extracells:vibrantchamberfluid>,
@@ -57,11 +57,27 @@ var recipesToRemove = [
 	<extrautils2:passivegenerator:2>,
 	<ic2:te:4>,
 	<immersiveengineering:metal_device1:3>,
-	<thermalexpansion:dynamo:1>
+	<thermalexpansion:dynamo:1>,
+	<extrautils2:teleporter:1>,
+	<exnihilocreatio:block_grinder>
 ] as IItemStack[];
 
 for items in recipesToRemove {
 	rh(items);
 }
+
+#remove creative tank recipe with creative conversion kit
+recipes.removeByRecipeName("thermalexpansion:tank_14");
+recipes.removeByRecipeName("thermalexpansion:tank_15");
+recipes.removeByRecipeName("thermalexpansion:tank_16");
+recipes.removeByRecipeName("thermalexpansion:tank_17");
+recipes.removeByRecipeName("thermalexpansion:tank_18");
+
+#remove creative energy cell recipe with creative conversion kit
+recipes.removeByRecipeName("thermalexpansion:cell_14");
+recipes.removeByRecipeName("thermalexpansion:cell_15");
+recipes.removeByRecipeName("thermalexpansion:cell_16");
+recipes.removeByRecipeName("thermalexpansion:cell_17");
+recipes.removeByRecipeName("thermalexpansion:cell_18");
 
 print("Initialized 'RemoveAndHide.zs'");

@@ -22,6 +22,7 @@
 		"f08f7f45"
 	],
 	size: 1.5833333333333333d,
+	optional: true,
 	tasks: [{
 		uid: "2f12c08b",
 		type: "item",
