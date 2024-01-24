@@ -58,7 +58,8 @@ var recipesToRemove = [
 	<ic2:te:4>,
 	<immersiveengineering:metal_device1:3>,
 	<thermalexpansion:dynamo:1>,
-	<extrautils2:teleporter:1>
+	<extrautils2:teleporter:1>,
+	<exnihilocreatio:block_grinder>
 ] as IItemStack[];
 
 for items in recipesToRemove {
