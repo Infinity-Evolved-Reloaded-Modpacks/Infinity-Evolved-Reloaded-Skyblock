@@ -255,17 +255,15 @@ recipes.remove(<minecraft:stick>);
 # --Stick 2x Adding
 recipes.addShapedMirrored(<minecraft:stick> * 2, 
 [
-    [null, <ore:plankWood>, null], 
-    [null, <ore:plankWood>, null], 
-    [null, null, null]
+    [null, <ore:plankWood>], 
+    [null, <ore:plankWood>]
 ]);
 
 # --Stick 8x Adding
-recipes.addShaped(<minecraft:stick> * 8, 
+recipes.addShapedMirrored(<minecraft:stick> * 8, 
 [
-    [null, <ore:logWood>, null], 
-    [null, <ore:logWood>, null], 
-    [null, null, null]
+    [null, <ore:logWood>], 
+    [null, <ore:logWood>]
 ]);
 
 #Chest
