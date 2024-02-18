@@ -89,7 +89,9 @@ var recipesToRemove = [
 	<projectred-exploration:peridot_helmet>,
 	<projectred-exploration:peridot_chestplate>,
 	<projectred-exploration:peridot_leggings>,
-	<projectred-exploration:peridot_boots>
+	<projectred-exploration:peridot_boots>,
+	<simplegenerators:geothermal_simple>,
+	<simplegenerators:geothermal_upgradable>
 ] as IItemStack[];
 
 for items in recipesToRemove {
