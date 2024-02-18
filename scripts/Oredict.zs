@@ -9,8 +9,15 @@ print("Initializing 'Oredict.zs'...");
 #Merge Alubrass into Brass
 val alubrass = <ore:ingotAlubrass>;
 val brass = <ore:ingotBrass>;
-
 brass.addAll(alubrass);
+
+val alubrassnugget = <ore:nuggetAlubrass>;
+val brassnugget = <ore:nuggetBrass>;
+brassnugget.addAll(alubrassnugget);
+
+val alubrassblock = <ore:blockAlubrass>;
+val brassblock = <ore:blockBrass>;
+brassblock.addAll(alubrassblock);
 
 #Steel
 recipes.remove(<railcraft:metal:3>);
