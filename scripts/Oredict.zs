@@ -71,6 +71,10 @@ rh(<ic2:ingot:8>);
 furnace.remove(<immersiveengineering:metal:5>);
 furnace.addRecipe(<advanced_solar_panels:crafting:11>,<immersiveengineering:metal:14>);
 
+#removed oreUranium from Yellorite Chunk
+val uran_Ore_Dict = <ore:oreUranium>;
+uran_Ore_Dict.remove(<exnihilocreatio:item_ore_yellorium:1>);
+
 mods.thermalexpansion.RedstoneFurnace.addRecipe(<advanced_solar_panels:crafting:11>,<ic2:resource:4>,2000);
 mods.thermalexpansion.RedstoneFurnace.addRecipe(<advanced_solar_panels:crafting:11>,<immersiveengineering:metal:14>,1500);
 #mods.thermalexpansion.Pulverizer.removeRecipe(<immersiveengineering:metal:14>*2);
