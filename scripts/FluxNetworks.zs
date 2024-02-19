@@ -6,7 +6,7 @@ print("Initializing 'FluxNetworks.zs'...");
 
 #Flux Core
 recipes.remove(<fluxnetworks:fluxcore>);
-mods.thermalexpansion.Transposer.addFillRecipe(<fluxnetworks:fluxcore>, <advanced_solar_panels:crafting:13>, <liquid:enderium> * 144, 500000);
+mods.thermalexpansion.Transposer.addFillRecipe(<fluxnetworks:fluxcore>, <advanced_solar_panels:crafting:13>, <liquid:enderium> * 144, 50000);
 
 #Flux Controller
 recipes.remove(<fluxnetworks:fluxcontroller>);
