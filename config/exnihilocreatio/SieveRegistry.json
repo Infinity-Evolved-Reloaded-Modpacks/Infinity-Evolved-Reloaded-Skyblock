@@ -400,36 +400,6 @@
   ],
   "ore:gravel": [
     {
-      "drop": "projectred-core:resource_item:200",
-      "chance": 0.06,
-      "meshLevel": 3
-    },
-    {
-      "drop": "projectred-core:resource_item:200",
-      "chance": 0.1025,
-      "meshLevel": 4
-    },
-    {
-      "drop": "projectred-core:resource_item:201",
-      "chance": 0.0525,
-      "meshLevel": 3
-    },
-    {
-      "drop": "projectred-core:resource_item:201",
-      "chance": 0.125,
-      "meshLevel": 4
-    },
-    {
-      "drop": "projectred-core:resource_item:202",
-      "chance": 0.0625,
-      "meshLevel": 3
-    },
-    {
-      "drop": "projectred-core:resource_item:202",
-      "chance": 0.105,
-      "meshLevel": 4
-    },
-    {
       "drop": "exnihilocreatio:item_ore_yellorium",
       "chance": 0.04,
       "meshLevel": 2

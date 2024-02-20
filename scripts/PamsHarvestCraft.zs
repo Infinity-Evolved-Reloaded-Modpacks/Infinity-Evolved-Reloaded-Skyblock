@@ -10,8 +10,8 @@ recipes.addShaped(<harvestcraft:presser>, [[<harvestcraft:asparagusseeditem>, <o
 recipes.remove(<harvestcraft:market>);
 recipes.addShaped(<harvestcraft:market>, [[<harvestcraft:blueberryitem>, <ore:gemEmerald>, <harvestcraft:raspberryitem>], [<ore:gemEmerald>, <extrautils2:wateringcan>, <ore:gemEmerald>], [<harvestcraft:blackberryitem>, <ore:gemEmerald>, <harvestcraft:candleberryitem>]]);
 
-#Wheat Seeds Recipe:
-recipes.addShapeless(<minecraft:wheat_seeds> * 2, [<minecraft:wheat>, <minecraft:wheat>]);
+#Wheat Seed Recipe:
+recipes.addShapeless(<minecraft:wheat_seeds>, [<minecraft:wheat>]);
 
 #Silken Tofu
 <harvestcraft:silkentofuitem>.addTooltip(format.green("Can be made in the Presser with Soybean"));

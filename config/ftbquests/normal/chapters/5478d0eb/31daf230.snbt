@@ -6,7 +6,7 @@
 	text: [
 		"§lA rather slow, but easy to set up method to get Steel is the Immersive Engineering Blast Furnace. A single Steel Ingot takes 60 seconds to bake. You need to use Coal Coke as fuel, you can't use anything else.",
 		"",
-		"§rThere are 3 recipes to make the Blast Bricks: Glue, which requires you to stick a Horse into a Smeltery; Ender Pearls; and TNT. Make a 3x3x3 and click the center with an Engineer's Hammer."
+		"§rThere are 2 recipes to make the Blast Bricks: Glue, which requires you to stick a Horse into a Smeltery or Ender Pearls. Make a 3x3x3 and click the center with an Engineer's Hammer."
 	],
 	dependencies: [
 		"c5f5f0a7"

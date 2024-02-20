@@ -9,8 +9,15 @@ print("Initializing 'Oredict.zs'...");
 #Merge Alubrass into Brass
 val alubrass = <ore:ingotAlubrass>;
 val brass = <ore:ingotBrass>;
-
 brass.addAll(alubrass);
+
+val alubrassnugget = <ore:nuggetAlubrass>;
+val brassnugget = <ore:nuggetBrass>;
+brassnugget.addAll(alubrassnugget);
+
+val alubrassblock = <ore:blockAlubrass>;
+val brassblock = <ore:blockBrass>;
+brassblock.addAll(alubrassblock);
 
 #Steel
 recipes.remove(<railcraft:metal:3>);
@@ -63,6 +70,10 @@ rh(<immersiveengineering:metal:5>);
 rh(<ic2:ingot:8>);
 furnace.remove(<immersiveengineering:metal:5>);
 furnace.addRecipe(<advanced_solar_panels:crafting:11>,<immersiveengineering:metal:14>);
+
+#removed oreUranium from Yellorite Chunk
+val uran_Ore_Dict = <ore:oreUranium>;
+uran_Ore_Dict.remove(<exnihilocreatio:item_ore_yellorium:1>);
 
 mods.thermalexpansion.RedstoneFurnace.addRecipe(<advanced_solar_panels:crafting:11>,<ic2:resource:4>,2000);
 mods.thermalexpansion.RedstoneFurnace.addRecipe(<advanced_solar_panels:crafting:11>,<immersiveengineering:metal:14>,1500);
@@ -141,5 +152,13 @@ recipes.addShaped(<thermalfoundation:material:132>,[[<thermalfoundation:material
 #DustEnder
 <ore:dustEnder>.remove(<ic2:dust:31>);
 <ore:dustEnder>.remove(<railcraft:dust:6>);
+
+#Aluminum
+val aluminum = <ore:oreAluminum>;
+val aluminium = <ore:oreAluminium>;
+aluminium.addAll(aluminum);
+
+val oreAluminum = <ore:oreAluminum>;
+oreAluminum.add(<exnihilocreatio:item_ore_aluminium:1>);
 
 print("Initialized 'Oredict.zs'");
